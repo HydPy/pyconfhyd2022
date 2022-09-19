@@ -873,7 +873,7 @@ a {
     top: 0
 }
 
-@media(min-width: 48em) {
+
     .header-main {
         flex-wrap:nowrap
     }
@@ -900,7 +900,7 @@ a {
     .header-sticky {
         box-shadow: 0 1px 6px 0
     }
-}
+
 
 .header-sticky {
     position: fixed;
@@ -915,4 +915,31 @@ a {
 
 .header-sticky+.content {
     padding-top: 65px
+}
+
+@media screen and (max-width: 767px) {
+    .content__desc{
+        font-size: 3.25em !important;
+    }
+
+    .content__button .highlight{
+        margin-top: 10px;
+    }
+
+    .logo__main img{
+        height: 10em;
+    }
+    
+}
+
+@media screen and (max-width: 360px) {
+    .header-main li a {
+        padding-left: 18px !important;
+    }
+    .video__content {
+        top : 55%;
+    }
+    .header-main ul{
+        padding : 10px;
+    }
 }
