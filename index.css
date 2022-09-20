@@ -873,7 +873,7 @@ a {
     top: 0
 }
 
-@media(min-width: 48em) {
+@media (min-width: 48em) {
     .header-main {
         flex-wrap:nowrap
     }
@@ -901,7 +901,6 @@ a {
         box-shadow: 0 1px 6px 0
     }
 }
-
 .header-sticky {
     position: fixed;
     top: 0;
@@ -915,4 +914,32 @@ a {
 
 .header-sticky+.content {
     padding-top: 65px
+}
+
+@media screen and (max-width: 767px) {
+    .content__desc{
+        font-size: 3.25em !important;
+    }
+
+    .content__button .highlight{
+        margin-top: 10px;
+    }
+
+    .logo__main img{
+        height: 10em;
+    }
+    
+    .header-main .menu-btn:checked~.menu{
+        background: rgba(0,0,0,.8);
+    }
+    
+    .header-main .menu .menu-highlight{
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .video__content {
+        top : 55%;
+    }
 }
