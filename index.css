@@ -873,7 +873,7 @@ a {
     top: 0
 }
 
-
+@media (min-width: 48em) {
     .header-main {
         flex-wrap:nowrap
     }
@@ -900,8 +900,7 @@ a {
     .header-sticky {
         box-shadow: 0 1px 6px 0
     }
-
-
+}
 .header-sticky {
     position: fixed;
     top: 0;
@@ -930,16 +929,17 @@ a {
         height: 10em;
     }
     
+    .header-main .menu-btn:checked~.menu{
+        background: rgba(0,0,0,.8);
+    }
+    
+    .header-main .menu .menu-highlight{
+        border-radius: 0px;
+    }
 }
 
 @media screen and (max-width: 360px) {
-    .header-main li a {
-        padding-left: 18px !important;
-    }
     .video__content {
         top : 55%;
-    }
-    .header-main ul{
-        padding : 10px;
     }
 }
