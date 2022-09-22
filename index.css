@@ -510,7 +510,7 @@ p {
 }
 
 .content__desc,.content__sub_desc {
-    font-size: 7.25em!important;
+    font-size: 6.25em!important;
     font-weight: 600!important;
     text-transform: uppercase;
     font-family: poppins,sans-serif;
@@ -926,7 +926,7 @@ a {
     }
 
     .logo__main img{
-        height: 10em;
+        height: 8em;
     }
     
     .header-main .menu-btn:checked~.menu{
