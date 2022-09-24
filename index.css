@@ -12,6 +12,7 @@ html,body {
     line-height: normal;
     font-display: auto;
     font-family: poppins,sans-serif;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -942,4 +943,97 @@ a {
     .video__content {
         top : 55%;
     }
+}
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+.section {
+    padding-top: 4em;
+    padding-bottom: 4rem
+}
+
+.section-heading {
+    font-size: 2rem;
+    font-weight: 800
+}
+
+.section-intro {
+    font-size: 1.125rem
+}
+
+.section.flexible {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 1.8;
+    font-size: 1.4em
+}
+
+.section.flexible.wrapper p {
+    text-align: left;
+    color : #242424
+}
+
+.section.flexible.wrapper p a{
+    color : rgb(0,0,258);
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media (min-width: 576px) {
+    .container {
+        max-width:540px
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width:720px
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width:960px
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width:940px;
+    }
+}
+
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.wrapper {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 70rem
+}
+
+.wrapper h2 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase
+}
+
+h2.special-bg,.section.flexible h2 {
+    background-color: var(--primary-color);
+    padding: 1.2rem;
+    color : #fff
 }
