@@ -511,7 +511,7 @@ p {
 }
 
 .content__desc,.content__sub_desc {
-    font-size: 6.25em!important;
+    font-size: 5.00em!important;
     font-weight: 600!important;
     text-transform: uppercase;
     font-family: poppins,sans-serif;
@@ -1117,4 +1117,21 @@ h2.special-bg,.section.flexible h2 {
 .coc-title{
     font-size: 50px!important;
     margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .video__content{
+        display: flex;
+    }
+    .logo__main{
+        margin-top: 25px;
+    } 
+    .logo__main img{
+        height: 400px !important;
+        width: 400px  !important;
+    } 
+    .m-t-20 {
+        margin-top: 35px !important;
+        margin-right: 40px;
+    }
 }
