@@ -68,14 +68,14 @@ jobs:
         
       - name: Deploy
         run: |
-          git config --global user.email "bsaraswat45@gmail.com"
-          git config --global user.name "GitHub Action - test"
-          git clone https://github.com/bhansa/hydpy.github.io.git pyconf-websites
+          git config --global user.email "contact@hydpy.org"
+          git config --global user.name "GitHub Action"
+          git clone https://github.com/HydPy/hydpy.github.io.git pyconf-websites
           cd pyconf-websites
           rm -rf 2022
           mkdir 2022
           cp -r ../public/* 2022/
           git add .
-          git commit -m "Github Actions: pyconfhyd2022-gatsby-${GITHUB_RUN_ID}"
-          git remote add origin-pages https://bhansa:${{ secrets.API_TOKEN_GITHUB }}@github.com/bhansa/hydpy.github.io.git
+          git commit -m "Github Actions: pyconfhyd2022-${GITHUB_RUN_ID}"
+          git remote add origin-pages https://ananyo2012:${{ secrets.API_TOKEN_GITHUB }}@github.com/HydPy/hydpy.github.io.git
           git push origin-pages master
