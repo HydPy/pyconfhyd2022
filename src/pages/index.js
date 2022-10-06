@@ -7,7 +7,7 @@ import {SEO} from "../components/seo";
 const IndexPage = () => {
   return (
     <div className="body-wrap">
-      <Header />
+      <Header classHeader={"absolute"}/>
       <HeroBanner />
     </div>
   );

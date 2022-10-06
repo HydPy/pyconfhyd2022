@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from 'gatsby';
-export const Header = ({bg}) => (
-  <header className={`header-main ${bg}`} style={{background: bg}}>
+export const Header = ({bg,classHeader}) => (
+  <header className={`header-main ${classHeader}`} style={{background: bg}}>
     <input className="menu-btn" type="checkbox" id="menu-btn" />
     <label className="menu-icon" htmlFor="menu-btn">
       <span className="navicon" />

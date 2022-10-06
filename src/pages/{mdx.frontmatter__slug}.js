@@ -6,9 +6,8 @@ import Layout from "./../components/layout";
 const MiscPage = ({ data, children }) => {
   return (
     <>
-      <Header />
+      <Header classHeader={"header-misc"}/>
       <Layout pageTitle="layout test">
-        <p>{data.mdx.frontmatter.title}</p>
         {children}
       </Layout>
     </>

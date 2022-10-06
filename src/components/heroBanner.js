@@ -1,6 +1,6 @@
 import React from "react";
 
-import logo from "../static/images/Pyconf_2022_03.png";
+import logo from "../static/images/Pyconf_2022_03.webp";
 import bgImage from "../static/images/bg_image.webp";
 import Button from './button';
 
@@ -11,13 +11,16 @@ export function HeroBanner() {
         <div className="video__overlay" />
         <div className="video__content">
           <div className="logo__main">
-            <img src={logo} width={900} />
+            <img src={logo} width={900} height={317} loading="eager" />
           </div>
           <div className="m-t-20">
             <h3 className="lead">
               <span>
               Conference: 10th December, 2022
               </span>
+              &nbsp;
+              &#x2022;
+              &nbsp;
               <span>
               Workshops: 11th December, 2022
               </span>
@@ -31,7 +34,8 @@ export function HeroBanner() {
                 Submit a Proposal
               </Button>
               <Button linkRef="#" cls="highlight disabled">
-                Buy Tickets (Coming Soon)
+                {/* todo: update ticket link @sanchit */}
+                Buy Tickets
               </Button>
             </div>
           </div>
