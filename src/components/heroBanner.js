@@ -33,8 +33,7 @@ export function HeroBanner() {
               >
                 Submit a Proposal
               </Button>
-              <Button linkRef="#" cls="highlight disabled">
-                {/* todo: update ticket link @sanchit */}
+              <Button linkRef="https://konfhub.com/pyconf-hyd-22" cls="highlight">
                 Buy Tickets
               </Button>
             </div>
