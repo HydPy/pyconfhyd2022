@@ -17,7 +17,7 @@ export const Header = ({bg,classHeader}) => (
         <a>Schedule</a>
       </li>
       <li>
-        <a target="blank" href="https://drive.google.com/file/d/19xhj-HD5iL0oQ3mYZoW11MB-1wY6wBd4/view">Sponsorship Prospectus</a> 
+        <a target="blank" href="https://docs.google.com/presentation/d/1m3EFIbILQgZ9qC9LFqJj-juJVBONknEJ/edit?usp=sharing&ouid=117757354059914775964&rtpof=true&sd=true">Sponsorship Prospectus</a> 
       </li>
       <li>
         <Link to="/code-of-conduct">Code of Conduct</Link>
