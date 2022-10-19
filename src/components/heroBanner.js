@@ -16,13 +16,13 @@ export function HeroBanner() {
           <div className="m-t-20">
             <h3 className="lead">
               <span>
-              Conference: 10th December, 2022
+              Conference: 11th December, 2022
               </span>
               &nbsp;
               &#x2022;
               &nbsp;
               <span>
-              Workshops: 11th December, 2022
+              Workshops: 10th December, 2022
               </span>
             
             </h3>
