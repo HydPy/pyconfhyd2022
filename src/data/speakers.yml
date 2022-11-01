@@ -3,48 +3,39 @@
   image: https://media-exp1.licdn.com/dms/image/C4E03AQEzWcGUan-CZQ/profile-displayphoto-shrink_800_800/0/1653733322385?e=1672876800&v=beta&t=DwY3K0MEXAhCJTo7sAaOm8TV5fKVPRhNlibbFQ4Uv9c
   bio: Creator of FastAPI, Typer, SQLModel, Asyncer. Working on open source, Forethought, Ray (Anyscale) and limited consulting for external teams.
   company: Forethought
-  twitter: https://twitter.com/pyconfhyd
-  github: https://www.github.com
-  linkedin: https://blog.sysarch.in
+  twitter: https://twitter.com/tiangolo
+  github: https://github.com/tiangolo
+  linkedin: https://www.linkedin.com/in/tiangolo/
 
 - id: Pycon Hyd 2022
-  name: Kalyan Prasad
-  image: https://media-exp1.licdn.com/dms/image/C5103AQHUfF934r_khQ/profile-displayphoto-shrink_800_800/0/1565771252392?e=1672876800&v=beta&t=SKrcCzVRj0vtayzplalwhwK-xU27ItNDh3GIBdhsUqo
-  bio: Self Taught Data Scientist | AI Enthusiast| Community First Person| Speaker| Life Time Learner| Project Management| Leadership|
-  company: pyconhyd
+  name: You could be next
+  image: https://i.pinimg.com/originals/49/3f/a0/493fa0f13970ab3ef29375669f670451.jpg
+  bio: Speaker @ Pycon Hyd 2022
+  company: 
   twitter: https://twitter.com/pyconfhyd
-  github: https://www.github.com
-  linkedin: https://www.linkedin.com/in/kalyan-prasad-3a647b22/
+  github: https://github.com/HydPy
 
 - id: Pycon Hyd 2022
-  name: Bharat Saraswat
-  image: https://avatars.githubusercontent.com/u/9723884?v=4
-  bio: JavaScript Developer man_technologist, Pythonista snake | Senior Frontend Developer | React JS | JavaScript | Angular | AEM
-  company: pyconhyd
+  name: You could be next
+  image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPGpJgHHr-WBsxy2sbQxaNPyp8zwJ69615_Q&usqp=CAU
+  bio: Speaker @ Pycon Hyd 2022
+  company: 
   twitter: https://twitter.com/pyconfhyd
-  github: https://www.github.com
-  linkedin: https://www.linkedin.com
+  github: https://github.com/HydPy
+
 
 - id: Pycon Hyd 2022
-  name: Pycon Rocks
+  name: You could be next
+  image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA4hOshkLGjgVbkBA29qNkQRBY1I9tx7m-MA&usqp=CAU
+  bio: Speaker @ Pycon Hyd 2022
+  company: 
+  twitter: https://twitter.com/pyconfhyd
+  github: https://github.com/HydPy
+
+- id: Pycon Hyd 2022
+  name: You could be next
   image: https://pbs.twimg.com/profile_images/1576507781854949376/wiM_oR3W_400x400.jpg
-  bio: Founder - Codehelp | SSB Recommended | Youtuber | Ex-Amazon | Ex-Microsoft 
-  company: pyconhyd
+  bio: Speaker @ Pycon Hyd 2022
+  company: 
   twitter: https://twitter.com/pyconfhyd
-  github: https://www.github.com
-
-- id: Pycon Hyd 2022
-  name: Pycon Rocks
-  image: https://pbs.twimg.com/profile_images/1576507781854949376/wiM_oR3W_400x400.jpg
-  bio: Pycon Hyd 2022
-  company: pyconhyd
-  twitter: https://twitter.com/pyconfhyd
-  github: https://www.github.com
-
-- id: Pycon Hyd 2022
-  name: Pycon Rocks
-  image: https://pbs.twimg.com/profile_images/1576507781854949376/wiM_oR3W_400x400.jpg
-  bio: Pycon Hyd 2022
-  company: pyconhyd
-  twitter: https://twitter.com/pyconfhyd
-  github: https://www.github.com
+  github: https://github.com/HydPy
