@@ -5,6 +5,7 @@ import { Header } from '../components/header';
 import SectionHeading from '../components/section-heading';
 import SpeakerCard from '../components/speaker-card';
 import SpeakerData from '../data/speakers.yml';
+import KeynoteData from '../data/keynotes.yml'
 
 const Speaker = ({
   data,
@@ -15,6 +16,24 @@ const Speaker = ({
     <Header bg={"#2f2762"} classHeader={"absolute"}/>
     <div sx={{maxWidth:'1000px',margin:'auto',}}>
       <Container>
+        <div sx={{display:'flex',justifyContent:'center'}}>
+          <SectionHeading mt={100}>
+            Keynotes
+          </SectionHeading>
+        </div>
+        <FlexList
+          sx={{
+            justifyContent: 'center',
+            alignContent: 'space-evenly'
+          }}>
+          {KeynoteData.map((keynote) => (
+            <SpeakerCard
+              key={keynote.id}
+              as='li'
+              {...keynote}
+            />
+          ))}
+        </FlexList>
         <div sx={{display:'flex',justifyContent:'center'}}>
           <SectionHeading>
             Speakers

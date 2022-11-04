@@ -1,13 +1,4 @@
 - id: Pycon Hyd 2022
-  name: Sebastián Ramírez
-  image: https://media-exp1.licdn.com/dms/image/C4E03AQEzWcGUan-CZQ/profile-displayphoto-shrink_800_800/0/1653733322385?e=1672876800&v=beta&t=DwY3K0MEXAhCJTo7sAaOm8TV5fKVPRhNlibbFQ4Uv9c
-  bio: Creator of FastAPI, Typer, SQLModel, Asyncer. Working on open source, Forethought, Ray (Anyscale) and limited consulting for external teams.
-  company: Forethought
-  twitter: https://twitter.com/tiangolo
-  github: https://github.com/tiangolo
-  linkedin: https://www.linkedin.com/in/tiangolo/
-
-- id: Pycon Hyd 2022
   name: You could be next
   image: https://i.pinimg.com/originals/49/3f/a0/493fa0f13970ab3ef29375669f670451.jpg
   bio: Speaker @ Pycon Hyd 2022

@@ -1,0 +1,17 @@
+- id: keynote-1
+  name: Sebastián Ramírez
+  image: https://media-exp1.licdn.com/dms/image/C4E03AQEzWcGUan-CZQ/profile-displayphoto-shrink_800_800/0/1653733322385?e=1672876800&v=beta&t=DwY3K0MEXAhCJTo7sAaOm8TV5fKVPRhNlibbFQ4Uv9c
+  bio: Creator of FastAPI, Typer, SQLModel, Asyncer. Working on open source, Forethought, Ray (Anyscale) and limited consulting for external teams.
+  company: Forethought
+  twitter: https://twitter.com/tiangolo
+  github: https://github.com/tiangolo
+  linkedin: https://www.linkedin.com/in/tiangolo/
+
+- id: keynote-2
+  name: Usha Rengaraju
+  image: https://media-exp1.licdn.com/dms/image/C5603AQFchmbCiqhlDQ/profile-displayphoto-shrink_800_800/0/1645622175000?e=1672876800&v=beta&t=uue4q_k9kJAm85MaV-bkqUui2jcJFlgCZE72LmVn2Ts
+  bio: Chief Data Scientist| Polymath | Founder NeuroAI |Corporate Trainer | Autism Advocate
+  company: Exa Protocol
+  twitter: 
+  github: 
+  linkedin: https://www.linkedin.com/in/usha-rengaraju-b570b7a2/

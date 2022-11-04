@@ -5,7 +5,7 @@ export default props =>
   <h3
     {...props}
     sx={{
-      mt: 100,
+      mt: props.mt,
       textAlign: 'center',
       display: 'inline-block',
       outline: 'none',

@@ -55,7 +55,7 @@ const Schedule = ({data})=> {
     <div sx={{maxWidth:'900px',margin:'auto'}}>
       <Container>
         <div sx={{display:'flex',justifyContent:'center'}}>
-          <SectionHeading>
+          <SectionHeading mt={100}>
             Schedule
             </SectionHeading>
         </div>
