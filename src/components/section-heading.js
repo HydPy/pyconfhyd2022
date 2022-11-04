@@ -17,9 +17,10 @@ export default props =>
       fontWeight: '600',
       borderRadius: '8px',
       padding: '13px 23px',
-      border: '1px solid  #646464',
+      border: '10px solid #4584b6',
       transition: 'box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s',
-      background: '#4584b6',
+      background: '#646464',
       color: '#ffde57',
+      
     }}
   />
