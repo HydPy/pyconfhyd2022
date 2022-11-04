@@ -582,7 +582,7 @@ p {
     height: 50px;
     font-size: 16px;
     line-height: 50px;
-    border-radius: 50px
+    border-radius: 8px
 }
 
 .event-date {
@@ -792,7 +792,8 @@ a {
 .header-main li a {
     display: block;
     padding: 20px;
-    font-size: 15px;
+    font-size: 16px;
+    font-weight: 500;
     color: hsla(0,0%,100%,.8);
     text-decoration: none
 }
@@ -829,7 +830,7 @@ a {
 
 .header-main .menu .menu-highlight {
     background: var(--primary-color);
-    border-radius: 50px;
+    border-radius: 8px;
 }
 
 .header-main .menu-icon {

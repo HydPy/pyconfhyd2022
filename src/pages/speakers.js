@@ -3,6 +3,7 @@ import { Container, jsx, Styled } from 'theme-ui';
 import FlexList from '../components/flex-list';
 import { Header } from '../components/header';
 import Layout from '../components/layout';
+import SectionHeading from '../components/section-heading'
 import SpeakerCard from '../components/speaker-card';
 import SpeakerData from '../data/speakers.yml';
 
@@ -15,11 +16,9 @@ export default ({
     <Header bg={"#2f2762"} classHeader={"absolute"}/>
     <Layout>
       <Container>
-        <Styled.h1
-          sx={{
-            mb: 5,
-          }}>
-        </Styled.h1>
+        <SectionHeading>
+        Speakers
+        </SectionHeading>
         <FlexList
           sx={{
             justifyContent: 'center',

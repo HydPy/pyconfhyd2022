@@ -14,7 +14,7 @@ export const Header = ({bg,classHeader}) => (
         <Link to='/speakers/'>Speakers</Link>
       </li>
       <li>
-        <a>Schedule</a>
+      <Link to='/schedule/'>Schedule</Link>
       </li>
       <li>
         <a target="blank" href="https://docs.google.com/presentation/d/1m3EFIbILQgZ9qC9LFqJj-juJVBONknEJ/edit?usp=sharing&ouid=117757354059914775964&rtpof=true&sd=true">Sponsorship Prospectus</a> 
@@ -24,7 +24,7 @@ export const Header = ({bg,classHeader}) => (
       </li>
       <li className="menu-highlight">
         <a href="https://pyconf.hydpy.org/2020" target="_blank">
-          PyConf Hyderabad 2022
+          PyConf Hyderabad 2020
         </a>
       </li>
     </ul>
