@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import { jsx, Container } from 'theme-ui'
-import Layout from '../components/layout'
 import List from '../components/list'
 import { Header } from '../components/header'
 import Confdata from '../data/conference-schedule.yml'
@@ -45,9 +44,7 @@ export const buttonsx = (show) => {
       }
 }
 
-export default ({
-  data,
-}) => {
+const Schedule = ({data})=> {
   const conferenceschedule = Confdata
   const workshopschedule = Workdata
   
@@ -55,11 +52,13 @@ export default ({
   return (
     <div className="body-wrap">
     <Header bg={"#2f2762"} classHeader={"absolute"}/>
-    <Layout>
+    <div sx={{maxWidth:'900px',margin:'auto'}}>
       <Container>
-       <SectionHeading>
-        Schedule
-        </SectionHeading>
+        <div sx={{display:'flex',justifyContent:'center'}}>
+          <SectionHeading>
+            Schedule
+            </SectionHeading>
+        </div>
         <div sx={{
           m:3,
           display: 'flex',
@@ -95,23 +94,9 @@ export default ({
             </div>
         }
       </Container>
-    </Layout>
+    </div>
     </div>
   )
 }
 
-// const types = groupBy(schedule, 'type')
-// {Object.keys(types).map(type => (
-//   <div key={type}>
-//     <Styled.h3>
-//       {type}
-//     </Styled.h3>
-//     <List>
-//       {types[type].map(item => (
-//         <li key={item.time}>
-//           <ScheduleItem {...item} />
-//         </li>
-//       ))}
-//     </List>
-//   </div>
-// ))}
+export default Schedule;

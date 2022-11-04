@@ -2,10 +2,9 @@
 import {
   GitHub, Linkedin, Twitter
 } from 'react-feather'
-import { Flex, jsx, Styled } from 'theme-ui'
+import { jsx, } from 'theme-ui'
 import BackgroundImage from './background-image'
 import Card from './card'
-import flexList from './flex-list'
 import IconLink from './icon-link'
 
 export default ({
@@ -28,10 +27,10 @@ export default ({
       }}
     />
     <div sx={{textAlign: 'center',}}>
-    <Styled.h3 sx={{color: '#2f2762'}}>
+    <h3 sx={{color: '#2f2762'}}>
       {name}
-    </Styled.h3>
-    <Styled.div
+    </h3>
+    <div
       sx={{
         fontSize: 1,
         fontWeight: 'bold',
@@ -39,15 +38,13 @@ export default ({
         color: 'grey'
       }}>
       {company}
-    </Styled.div>
-    <Styled.p
-      sx={{
+    </div>
+    <p sx={{
         mb: 0,
         fontSize:2,
         fontWeight: 'medium'
       }}>
-      {bio}
-    </Styled.p>
+      {bio}</p>
 
     {/* <Flex mx={-2}> */}
       {twitter && (

@@ -1,11 +1,11 @@
 /** @jsx jsx */
-import { jsx, Styled } from 'theme-ui'
+import { jsx, } from 'theme-ui'
 
 export default ({
   width = 280,
   ...props
 }) =>
-  <Styled.div
+  <div
     {...props}
     sx={{
       flexGrow: 0,

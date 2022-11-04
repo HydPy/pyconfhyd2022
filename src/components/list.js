@@ -1,8 +1,8 @@
 /** @jsx jsx */
-import { jsx, Styled } from 'theme-ui'
+import { jsx, } from 'theme-ui'
 
 export default props =>
-  <Styled.ul
+  <ul
     {...props}
     sx={{
       listStyle: 'none',

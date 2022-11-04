@@ -1,8 +1,8 @@
 /** @jsx jsx */
-import { Styled, jsx } from 'theme-ui'
+import { jsx } from 'theme-ui'
 
 export default props =>
-  <Styled.a
+  <a
     {...props}
     sx={{
       display: 'inline-block',

@@ -1,26 +1,23 @@
 /** @jsx jsx */
-import { jsx, Styled } from 'theme-ui'
+import { jsx } from 'theme-ui'
 
 export default props =>
-  <Styled.h2
+  <h3
     {...props}
     sx={{
-      width: '100%',
+      mt: 100,
       textAlign: 'center',
-      mt: 5,
-      mb: 2,
       display: 'inline-block',
       outline: 'none',
       cursor: 'pointer',
-      fontSize: '30px',
+      fontSize: '20px',
       // lineHeight: '20px',
-      fontWeight: '600',
-      borderRadius: '8px',
-      padding: '13px 23px',
+      fontWeight: '400',
+      borderRadius: '4px',
+      padding: '20px 80px',
       border: '10px solid #4584b6',
       transition: 'box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s, -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s',
       background: '#646464',
       color: '#ffde57',
-      
     }}
   />
