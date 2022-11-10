@@ -12,12 +12,12 @@ const Speaker = ({
 }) => {
 
   return (
-    <div className="body-wrap">
-    <Header bg={"#2f2762"} classHeader={"absolute"}/>
+    // <div className="body-wrap">
+    // {/* <Header bg={"#2f2762"} classHeader={"absolute"}/> */}
     <div sx={{maxWidth:'1000px',margin:'auto',}}>
       <Container>
         <div sx={{display:'flex',justifyContent:'center'}}>
-          <SectionHeading mt={100}>
+          <SectionHeading>
             Keynotes
           </SectionHeading>
         </div>
@@ -34,7 +34,7 @@ const Speaker = ({
             />
           ))}
         </FlexList>
-        <div sx={{display:'flex',justifyContent:'center'}}>
+        {/* <div sx={{display:'flex',justifyContent:'center'}}>
           <SectionHeading>
             Speakers
             </SectionHeading>
@@ -51,10 +51,10 @@ const Speaker = ({
               {...speaker}
             />
           ))}
-        </FlexList>
+        </FlexList> */}
       </Container>
     </div>
-    </div>
+    // </div>
   )
 }
 
