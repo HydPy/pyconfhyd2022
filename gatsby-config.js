@@ -10,6 +10,7 @@ module.exports  = {
     siteUrl: `https://pyconf.hydpy.org/2022`,
   },
   plugins: [
+    "gatsby-plugin-theme-ui",
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
