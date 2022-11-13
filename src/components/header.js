@@ -21,6 +21,9 @@ export const Header = ({bg,classHeader}) => (
       <Link>Schedule</Link>
       </li>
       <li>
+        <Link smooth spy to='#venue'>Venue</Link>
+      </li>
+      <li>
         <a target="blank" href="https://docs.google.com/presentation/d/1m3EFIbILQgZ9qC9LFqJj-juJVBONknEJ/edit?usp=sharing&ouid=117757354059914775964&rtpof=true&sd=true">Sponsorship Prospectus</a> 
       </li>
       <li>

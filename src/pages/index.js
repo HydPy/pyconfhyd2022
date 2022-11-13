@@ -5,6 +5,7 @@ import {Footer} from '../components/footer';
 import {HeroBanner} from '../components/heroBanner';
 import {SEO} from "../components/seo";
 import Speakers from "./speakers";
+import Venue from "./venue";
 
 const IndexPage = () => {
   return (
@@ -12,6 +13,7 @@ const IndexPage = () => {
       <Header classHeader={"absolute"} bg={"fff"}/>
       <HeroBanner />
       <section id="speaker-sec"><Speakers /></section>
+      <section id="venue"><Venue/></section>
       <Footer />
     </div>
   );
