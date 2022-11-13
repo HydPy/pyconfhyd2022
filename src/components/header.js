@@ -11,7 +11,7 @@ export const Header = ({bg,classHeader}) => (
         <Link to='/'>Home</Link>
       </li>
       <li>
-        <Link smooth spy to='#speaker-sec'>Speaker</Link>
+        <Link smooth spy to='#speaker-sec'>Speakers</Link>
         {/* <a onClick={()=>{
           const anchor = document.querySelector('#speaker-sec')
           anchor.scrollIntoView({behavior: 'smooth', block:'center'})
@@ -25,6 +25,9 @@ export const Header = ({bg,classHeader}) => (
       </li>
       <li>
         <Link to="/code-of-conduct">Code of Conduct</Link>
+      </li>
+      <li>
+        <Link to="/faq">FAQ</Link>
       </li>
       <li className="menu-highlight">
         <a href="https://pyconf.hydpy.org/2020" target="_blank">

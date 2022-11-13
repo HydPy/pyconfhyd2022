@@ -7,7 +7,7 @@ import SpeakerCard from '../components/speaker-card';
 import SpeakerData from '../data/speakers.yml';
 import KeynoteData from '../data/keynotes.yml'
 
-const Speaker = ({
+const Speakers = ({
   data,
 }) => {
 
@@ -58,4 +58,4 @@ const Speaker = ({
   )
 }
 
-export default Speaker;
+export default Speakers;

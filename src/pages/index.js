@@ -3,14 +3,14 @@ import "../static/stylesheets/application.scss";
 import {Header} from '../components/header';
 import {HeroBanner} from '../components/heroBanner';
 import {SEO} from "../components/seo";
-import Speaker from "./speakers";
+import Speakers from "./speakers";
 
 const IndexPage = () => {
   return (
     <div className="body-wrap">
       <Header classHeader={"absolute"} bg={"fff"}/>
       <HeroBanner />
-      <section id="speaker-sec"><Speaker /></section>
+      <section id="speaker-sec"><Speakers /></section>
     </div>
   );
 };

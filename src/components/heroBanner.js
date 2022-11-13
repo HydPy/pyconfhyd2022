@@ -16,23 +16,15 @@ export function HeroBanner() {
           <div className="m-t-20">
             <h3 className="lead">
               <span>
-              Conference: 11th December, 2022
+              Workshops: 10th December, 2022 at EPAM Systems, Hyderabad
               </span>
-              &nbsp;
-              &#x2022;
-              &nbsp;
+            </h3>
+            <h3 className="lead">
               <span>
-              Workshops: 10th December, 2022
+              Conference: 11th December, 2022 at T-hub Phase-2, Hyderabad
               </span>
-            
             </h3>
             <div className="content__button m-t-20">
-              <Button
-                linkRef="https://www.papercall.io/pyconfhyd-cfp-2022"
-                cls="highlight"
-              >
-                Submit a Proposal
-              </Button>
               <Button linkRef="https://konfhub.com/pyconf-hyd-22" cls="highlight">
                 Buy Tickets
               </Button>
