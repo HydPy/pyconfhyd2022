@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen);
-@import url(https://fonts.googleapis.com/css?family=Satisfy);
+@import url(https://fonts.googleapis.com/css?family=Overpass);
 .center-it{
     margin: auto;
     display: flex;
@@ -94,15 +94,15 @@
     width: 439px;
     height: 85px;
 
-    font-family: 'Satisfy';
+    font-family: 'Sono', sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 30px;
-    line-height: 33px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
 
     /* or 111% */
     text-align: center;
-    letter-spacing: 0.25px;
+    /* letter-spacing: 0.25px; */
     text-transform: capitalize;
 
     color: rgb(120, 105, 105);

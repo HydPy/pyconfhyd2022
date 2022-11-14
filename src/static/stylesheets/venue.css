@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
-@import url(https://fonts.googleapis.com/css?family=Satisfy); 
+@import url(https://fonts.googleapis.com/css?family=Overpass); 
 .center-it{
     max-width: 1300px;
     margin: auto;
@@ -84,14 +84,14 @@
 .container h3{
     margin: 5px;
     font-size: 20px;
-    font-family: 'Lobster', sans-serif;
+    font-family: 'Oxygen', sans-serif;
     color: orangered;
 }
 
 .container span{
     font-size: 24px;
     box-sizing: border-box;
-    font-family: 'Satisfy', sans-serif;
+    font-family: 'Overpass', sans-serif;
     color: rgb(120, 105, 105);
 }
 

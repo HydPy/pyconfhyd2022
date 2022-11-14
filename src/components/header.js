@@ -10,9 +10,7 @@ export const Header = ({bg,classHeader}) => (
       <li>
         <Link to='/'>Home</Link>
       </li>
-      <li>
       <Link smooth spy to='#keynotes'>Keynotes</Link>
-      </li>
       <li>
         <Link smooth spy to='#speaker-sec'>Speakers</Link>
         {/* <a onClick={()=>{
