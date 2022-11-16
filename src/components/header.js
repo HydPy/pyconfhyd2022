@@ -10,16 +10,17 @@ export const Header = ({bg,classHeader}) => (
       <li>
         <Link to='/'>Home</Link>
       </li>
-      <Link smooth spy to='#keynotes'>Keynotes</Link>
+      
       <li>
-        <Link smooth spy to='#speaker-sec'>Speakers</Link>
+      <Link smooth spy to='#keynotes'>Keynotes</Link>
+        {/* <Link smooth spy to='#speaker-sec'>Speakers</Link> */}
         {/* <a onClick={()=>{
           const anchor = document.querySelector('#speaker-sec')
           anchor.scrollIntoView({behavior: 'smooth', block:'center'})
         }}>Speaker</a> */}
       </li>
       <li>
-      <Link>Schedule</Link>
+      <Link smooth spy to='#timetable'>Schedule</Link>
       </li>
       <li>
         <Link smooth spy to='#venue'>Venue</Link>

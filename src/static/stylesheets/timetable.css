@@ -1,0 +1,262 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata); 
+.sec{
+    padding: 10px;
+    margin:10px auto;
+}
+
+.conf_work_button{
+    margin: 20px;
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    border-radius: 8px;
+    padding: 14px 24px;
+    border: none;
+    background: #ec5d25;
+    color: #fff;
+}
+
+.conf_work_button_not_show{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 300;
+    border-radius: 8px;
+    padding: 13px 23px;
+    border: 1px solid #222222;
+    background: #fff;
+    color: #2222;
+}
+.conf_work_button_not_show:hover{
+    border-color: #000;
+    background: #f7f7f7;
+}
+
+.grid{
+    margin-top: 10px     ;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    gap: 20px;
+}
+
+
+.top-liner{
+    /* border-top: 1px solid #2f2762; */
+}
+.time-col {
+    /* background: #f2b10b; */
+    text-align: center;
+    font-family: 'Inconsolata', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 28px;
+    color: orangered !important;
+}
+
+.talk-col{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.talk-col-1{
+    display: grid;
+    margin: 10px;
+    grid-template-columns: 1fr 1fr 0.5fr;
+    gap: 20px;
+}
+
+
+.talkcard{
+    display: flex;
+    flex-direction: column;
+    transition: border 3s ease-in-out;
+    /* backdrop-filter: blur(29px); */
+    border: 4px solid #f2b10b;
+    /* border: 1px solid rgb(139, 148, 158); */
+    position: relative;
+    border-radius: 14px;
+    z-index: 50;
+    cursor: pointer;
+    box-shadow: 0 0 25px #ccc;
+}
+
+.talkcard:hover::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 'none' !important;
+    border-radius: 10px;
+    background: linear-gradient(71.18deg, rgb(0, 34, 255) -27.32%, rgb(0, 34, 255) -16.39%, rgb(81, 121, 254) -7.38%, rgb(165, 237, 182) 30.59%, rgb(250, 232, 90) 46.06%, rgb(253, 172, 62) 62.61%, rgb(255, 92, 0) 75.82%);
+    position: absolute;
+    z-index: -1;
+}
+
+.liftcard{
+    width: 98%;
+    height: 98%;
+    margin: 1% auto;
+    border-radius: 10px;
+    background: white;
+    padding: 3%;
+    justify-content: space-evenly;
+}
+
+.tag{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2%;
+}
+
+.track{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background: black;
+    text-transform: capitalize;
+}
+
+.time {
+    display: flex;
+    /* color: #f2b10b; */
+    color: rgb(61, 72, 89);
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+    align-items: center;
+    /* text-decoration: underline; */
+    /* font-weight: bold; */
+}
+
+.talk-div {
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.talk-area {
+    width: 100%;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.talk-margin {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    margin-top: 12px;
+}
+
+.talk-margin h4 {
+    font-family: AllianceNo2, sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #2f2762;
+    text-transform: capitalize;
+}
+
+.speaker-div {
+    display: initial;
+    cursor: pointer;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: AllianceNo2, sans-serif;
+    /* color: rgb(196, 196, 196); */
+    color: orangered;
+    margin-top: 12px;
+    text-transform: capitalize;
+}
+
+
+.discription-div{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    overflow-wrap: break-word;
+}
+
+.discription-div p{
+    white-space: pre-line;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: justify;
+    color: rgb(110, 104, 104);
+}
+
+.info-button-div{
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.bottom-button{
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    color: #006573;
+    font-family: AllianceNo2, sans-serif;
+    width: auto;
+    border-width: 0px;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0px !important;
+    min-width: initial !important;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+    .grid{
+        margin-top: 10px     ;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .time-col{
+        text-align: start;
+        padding-left: 2%;
+    }
+  }
+
+  @media screen and (max-width: 1000px) {
+    .talk-col{
+        display: grid;
+        margin: 10px;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .talk-col-1{
+        display: grid;
+        margin: 10px;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+  }

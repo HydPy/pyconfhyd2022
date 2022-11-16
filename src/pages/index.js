@@ -7,6 +7,7 @@ import {SEO} from "../components/seo";
 import Speakers from "./speakers";
 import Keynotes from "./keynotes";
 import Venue from "./venue";
+import TimeTable from "./timetable";
 
 const IndexPage = () => {
   return (
@@ -14,6 +15,7 @@ const IndexPage = () => {
       <Header classHeader={"absolute"} bg={"fff"}/>
       <HeroBanner />
       <section id="keynotes"><Keynotes/></section>
+      <section id="timetable"><TimeTable/></section>
       {/* <section id="speaker-sec"><Speakers /></section> */}
       <section id="venue"><Venue/></section>
       <Footer />

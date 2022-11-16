@@ -1,36 +1,63 @@
-- time: 9:00AM - 10:00AM
+- time: 09:00AM
   workList:
     - title: Workshop Registration
+      discription: Minim nostrud aliquip in nostrud elit ex nostrud consequat laboris non nulla in. 
+      track: Entry Gate 
+      speaker: Pycon Volunteer
+      time: 9:00AM - 9:30AM
     - title: Breakfast
+      discription: Minim nostrud aliquip in nostrud elit ex nostrud consequat laboris non nulla in. 
+      track: Cafetria
+      speaker: Food Partner
+      time: 9:30AM - 10:00AM
 
-- time: 10:00AM - 1:00PM
+- time: 10:00AM
   workList:
     - title: Containarized Development using Docker
       speaker: Sanchit Balchandani
-      room: Room-101
+      discription: Minim nostrud aliquip in nostrud elit ex nostrud consequat laboris non nulla in. 
+      track: Track-101
+      time: 10:15AM - 12:45PM
     - title: Computational Linear Algebra & Applications in Data Science
       speaker: Jaidev Deshpande
-      room: Room-102 
+      discription: Minim nostrud aliquip in nostrud elit ex nostrud consequat laboris non nulla in. 
+      track: Track-102 
+      time: 10:30AM - 1:00PM
     - title: Building ML Applications with Gramex
       speaker: Bhanu K
-      room: Room-103
+      discription: Minim nostrud aliquip in nostrud elit ex nostrud consequat laboris non nulla in. 
+      track: Track-103
+      time: 10:40AM - 1:00PM
     - title: Young Learners Workshop
-      speaker: <TBD>  
-      room: Room-104
+      speaker: Pythonista  
+      discription: Minim nostrud aliquip in nostrud elit ex nostrud consequat laboris non nulla in. 
+      track: Track-104
+      time: 10:00AM - 1:00PM
 
-- time: 1:00PM - 2:00PM
+- time: 1:00PM
   workList:
     - title: Networking
+      speaker: participants
+      discription: Minim nostrud aliquip in nostrud elit ex nostrud consequat laboris non nulla in.
+      track: Venue
+      time: 1:00PM - 1:15PM
     - title: Lunch Break
+      speaker: Food Partner
+      discription: Minim nostrud aliquip in nostrud elit ex nostrud consequat laboris non nulla in.
+      track: Cafetria
+      time: 1:15PM - 2:00PM
 
-- time: 2:00AM - 5:00PM
+- time: 2:00AM
   workList:
     - title: Build sophisticated REST api using Django Rest Framework
       speaker: Akshar Raaj
-      room: Room-101
+      discription: Minim nostrud aliquip in nostrud elit ex nostrud consequat laboris non nulla in. 
+      track: Track-101
     - title:  Building a Recommender System in Python
       speaker: Dr. Sarabjot Singh Anand
-      room: Room-102 
+      discription: Minim nostrud aliquip in nostrud elit ex nostrud consequat laboris non nulla in. 
+      track: Track-102 
     - title: Animating Science using Python
       speaker:  Purusharth Saxena
-      room: Room-103
+      discription: Minim nostrud aliquip in nostrud elit ex nostrud consequat laboris non nulla in. 
+      track: Track-103

@@ -1,95 +1,104 @@
-- time: 9:20AM - 9:30AM
-  workList:
-    - title: Welcome Note
-      speaker: <TBD>
-      room: Conference Hall
-
-- time: 9:30AM - 10:30AM
+- time: 09:00AM
   workList:
     - title: Keynote [Opening]
+      time: 9:30AM - 10:30AM
       speaker: <TBD> [Dr. Sarabjot Singh Anand]
-      room: Conference Hall
+      track: Conference Hall
+      discription: Aute in non veniam reprehenderit Lorem anim dolor.
 
-- time: 10:30AM - 11:00AM
+- time: 10:30AM
   workList:
     - title: Talk - 1 [Managing Production Data Prep Pipelines]
+      time: 10:30AM - 11:00AM
       speaker: <TBD> [Dr. Venkata Pingali]
-      room: Room-101
-
-- time: 11:00AM - 11:30AM
-  workList:
+      track: Track-101
+      discription: Ut laboris veniam do est quis mollit nulla aute esse in ad elit non labore.
     - title: Talk - 2 [Celery is digestive]
+      time: 11:00AM - 11:30AM
       speaker: <TBD> [Abhishek Mishra]
-      room: Room-102
-
-- time: 11:30AM - 11:45AM
+      track: Track-102
+      discription: Reprehenderit do do aliqua do dolore dolore exercitation exercitation proident exercitation ipsum Lorem consectetur tempor.
+    
+- time: 11:30AM 
   workList:
-    - title: Break
+    - title: Tea / Coffee Break
+      time: 11:30AM - 11:45AM
+      speaker: Food Partner
+      track: Cafetria
+      description: Ea est aliqua exercitation qui magna aute fugiat tempor pariatur.
 
-- time: 11:45AM - 12:15PM
+
+- time: 11:45AM 
   workList:
     - title: Talk-3 [Differentiable programming]
+      time: 11:45AM - 12:15PM
       speaker: <TBD> [Srikumar Subramanian]
-      room: Room-101
-
-- time: 12:15PM - 12:45PM
-  workList:
+      track: Track-101
+      discription: Ullamco elit exercitation deserunt deserunt dolor mollit cupidatat ad.
     - title: Talk-4 [Continuous Quality for Python What, How and Why]
+      time: 12:15PM - 12:45PM
       speaker: <TBD> [Sanket Saurav]
-      room: Room-102
+      track: Track-102
+      discription: Fugiat sint proident incididunt proident qui.
 
-- time: 12:45PM - 1:45PM
+- time: 12:45PM 
   workList:
     - title: Lunch
+      time: 12:45PM - 1:45PM
+      speaker: Food Partner 
+      track: Cafetria
+      discription: Ea est aliqua exercitation qui magna aute fugiat tempor pariatur.
 
-- time: 1:45PM - 2:15PM
+- time: 1:45PM 
   workList:
     - title: Talk-5 (Sponsored) [ISB Sponsored Talk - Python Usage in Data Science]
+      time: 1:45PM - 2:15PM
       speaker: <TBD> [Suryanarayana Ambatipudi]
-      room: Room-101
-
-- time: 2:15PM - 2:45PM
-  workList:
+      track: Track-101
+      discription: Ea sit dolore cupidatat commodo eu nisi in laborum sunt.
     - title: Talk-6 [Scalable Automated Machine learning with H2O in Python]
+      time: 2:15PM - 2:45PM
       speaker: <TBD> [Parul Pandey]
-      room: Room-102
+      track: Track-102
+      discription: Ea est aliqua exercitation qui magna aute fugiat tempor pariatur.
 
-- time: 2:45PM - 3:00PM
+- time: 2:45PM 
   workList:
-    - title: Break
+    - title: Drinks Break
+      time: 2:45PM - 3:00PM
+      speaker: participants
+      track: Cafetria
+      discription: Reprehenderit aliqua tempor anim non elit irure elit id tempor non amet do nostrud.
 
-- time: 3:00PM - 3:30PM
+- time: 3:00PM 
   workList:
     - title: Talk-7 (Sponsored) [Atlassian Sponsored Talk - Machine Learning in Healthcare]
+      time: 3:00PM - 3:30PM
       speaker: <TBD> [Saurabh Khandelwal]
-      room: Room-101
-
-- time: 3:30PM - 4:00PM
-  workList:
+      track: Track-101
+      discription: Reprehenderit aliqua tempor anim non elit irure elit id tempor non amet do nostrud.
     - title: Talk-8 [Understanding Air Pollution pre+post Diwali in Indian cities using Satellite Imagery]
+      time: 3:30PM - 4:00PM
       speaker: <TBD> [Gokulavasan Murali]
-      room: Room-102
-
-- time: 4:00PM - 4:30PM
+      track: Track-102
+      discription: In ea commodo ipsum sint duis est elit pariatur ipsum aliquip irure.
+- time: 4:00PM 
   workList:
     - title: Lightining Talks (5)
+      time: 4:00PM - 4:30PM
       speaker: <TBD>
-      room: Conference Hall
-
-- time: 4:30PM - 5:00PM
-  workList:
+      track: Track-101
+      discription: Lorem voluptate in adipisicing aliquip nisi ea exercitation et sit.
     - title: Talk-9 [Rethinking Python Packaging -- a thought experiment]
+      time: 4:30PM - 5:00PM
       speaker: <TBD> [Pradyun Gedam]
-      room: Room-101
-
-- time: 5:00PM - 6:00PM
+      track: Track-102
+      discription: Aliquip ea sunt eiusmod velit.
+- time: 5:00PM 
   workList:
     - title: Keynote [Closing]
+      time: 5:00PM - 6:00PM
       speaker: <TBD> [Zainab Bawa]
-      room: Conference Hall
-
-- time: 6:00PM - 6:15PM
-  workList:
-    - title: Thank You Note
-      speaker: <TBD>
-      room: Conference Hall
+      track: Conference Hall
+      discription: Ipsum excepteur consequat ex anim.
+    
