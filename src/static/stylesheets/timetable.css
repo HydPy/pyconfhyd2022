@@ -125,16 +125,18 @@
     border-radius: 4px;
     background: black;
     text-transform: capitalize;
+    font-family: 'Inconsolata', sans-serif;
 }
 
 .time {
     display: flex;
     /* color: #f2b10b; */
     color: rgb(61, 72, 89);
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     font-size: 16px;
     align-items: center;
+    font-family: 'Inconsolata', sans-serif;
     /* text-decoration: underline; */
     /* font-weight: bold; */
 }
@@ -161,7 +163,7 @@
 }
 
 .talk-margin h4 {
-    font-family: AllianceNo2, sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     font-weight: 600;
     font-size: 24px;
     line-height: 28px;
@@ -176,7 +178,7 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    font-family: AllianceNo2, sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     /* color: rgb(196, 196, 196); */
     color: orangered;
     margin-top: 12px;
@@ -219,7 +221,7 @@
     font-size: 16px;
     line-height: 16px;
     color: #006573;
-    font-family: AllianceNo2, sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     width: auto;
     border-width: 0px;
     -webkit-box-align: center;
