@@ -1,0 +1,14 @@
+# Platinum - EPAM, Innominds
+# Gold - Essentia (logo pending),  Creliohealth
+# Silver - Gridlex
+# Associate -  Zentropy (logo pending)
+
+- type: Platinum
+  companyName: EPAM
+  companyWebsite: 
+  imagePath: epam.png
+
+- type: Platinum
+  companyName: Innominds
+  companyWebsite: 
+  imagePath: innominds.png

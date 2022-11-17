@@ -29,11 +29,11 @@ export const Header = ({bg,classHeader}) => (
       <li>
         <Link to="/faq">FAQ</Link>
       </li>
-      <li className="menu-highlight">
-        <a href="https://pyconf.hydpy.org/2020" target="_blank">
-          PyConf Hyderabad 2020
-        </a>
+      
+      <li>
+        <Link to="/sponsors">Sponsors</Link>
       </li>
+      
     </ul>
   </header>
 );

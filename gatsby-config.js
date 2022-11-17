@@ -33,7 +33,7 @@ module.exports  = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "pages",
-        path: "./src/pages/",
+        path: `${__dirname}/src/pages/`,
       },
       __key: "pages",
     },
@@ -44,6 +44,14 @@ module.exports  = {
         path: "./src/misc/",
       },
       __key: "misc",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "static",
+        path: `${__dirname}/src/static/`,
+      },
+      __key: "static",
     },
     {
       resolve: `gatsby-plugin-google-gtag`,
