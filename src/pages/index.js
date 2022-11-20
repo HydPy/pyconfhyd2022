@@ -1,5 +1,5 @@
 import React from "react";
-import "../static/stylesheets/application.scss";
+import "../assets/stylesheets/application.scss";
 import {Header} from '../components/header';
 import {Footer} from '../components/footer';
 import {HeroBanner} from '../components/heroBanner';

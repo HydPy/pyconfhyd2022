@@ -3,12 +3,14 @@
 # Silver - Gridlex
 # Associate -  Zentropy (logo pending)
 
-- type: Platinum
+- id: epam
+  type: Platinum
   companyName: EPAM
   companyWebsite: 
-  imagePath: epam.png
+  imagePath: ./images/epam.png # need to pass image name only here
 
-- type: Platinum
+- id: innominds
+  type: Platinum
   companyName: Innominds
   companyWebsite: 
-  imagePath: innominds.png
+  imagePath: innominds.webp

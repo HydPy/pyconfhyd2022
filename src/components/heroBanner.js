@@ -1,7 +1,7 @@
 import React from "react";
 
-import logo from "../static/images/Pyconf_2022_03.webp";
-import bgImage from "../static/images/bg_image.webp";
+import logo from "../images/Pyconf_2022_03.webp";
+import bgImage from "../images/bg_image.webp";
 import Button from './button';
 
 export function HeroBanner() {

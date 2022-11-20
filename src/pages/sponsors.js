@@ -3,8 +3,11 @@ import { Container, jsx } from "theme-ui";
 import FlexList from "../components/flex-list";
 import SectionHeading from "../components/section-heading";
 import SponsorCard from "../components/sponsor-card";
-import SponsorData from "../data/sponsors.yml";
-import { Header } from './../components/header';
+import SponsorData from "../data/sponsors.yaml";
+import { Header } from "./../components/header";
+import { graphql } from "gatsby";
+
+import "../assets/stylesheets/application.scss";
 
 const Sponsors = ({ data }) => {
   return (
@@ -30,5 +33,6 @@ const Sponsors = ({ data }) => {
     </div>
   );
 };
+
 
 export default Sponsors;

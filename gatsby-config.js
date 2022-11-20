@@ -14,6 +14,9 @@ module.exports  = {
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
+    `gatsby-transformer-yaml`,
+    "gatsby-plugin-sharp",
+    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
@@ -23,12 +26,10 @@ module.exports  = {
         start_url: `/`,
         background_color: `#ffffff`,
         display: `minimal-ui`,
-        icon: "src/static/images/icon.png",
+        icon: "src/images/icon.png",
       },
     },
     "gatsby-plugin-mdx",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -36,6 +37,14 @@ module.exports  = {
         path: `${__dirname}/src/pages/`,
       },
       __key: "pages",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "pages",
+        path: `${__dirname}/src/data/`,
+      },
+      __key: "data",
     },
     {
       resolve: "gatsby-source-filesystem",
@@ -48,10 +57,18 @@ module.exports  = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "static",
-        path: `${__dirname}/src/static/`,
+        name: "assets",
+        path: `${__dirname}/src/assets/`,
       },
-      __key: "static",
+      __key: "assets",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "images",
+        path: `${__dirname}/src/images/`,
+      },
+      __key: "images",
     },
     {
       resolve: `gatsby-plugin-google-gtag`,
