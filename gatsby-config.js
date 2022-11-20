@@ -41,10 +41,10 @@ module.exports  = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "pages",
-        path: `${__dirname}/src/data/`,
+        name: "static",
+        path: `${__dirname}/src/static/`,
       },
-      __key: "data",
+      __key: "static",
     },
     {
       resolve: "gatsby-source-filesystem",
