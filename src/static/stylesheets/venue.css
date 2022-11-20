@@ -1,11 +1,10 @@
 @import url(https://fonts.googleapis.com/css?family=Oxygen);
 @import url(https://fonts.googleapis.com/css?family=Lobster);
 @import url(https://fonts.googleapis.com/css?family=Overpass); 
-.center-it{
-    max-width: 1300px;
-    margin: auto;
+.center-it-a{
     display: flex;
     justify-content: center;
+    flex-direction: column;
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
@@ -15,17 +14,17 @@
     padding-bottom: 1rem;
 }
 
-.flex-it{
+.flex-it-a{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    margin: 0 auto;
 }
 .card {
     /* Add shadows to create the "card" effect */
     /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s; */
     padding: 30px;
-    display: flexbox;
+    /* justify-content: space-between; */
 }
   /* On mouse-over, add a deeper shadow
 .card:hover {
@@ -35,18 +34,16 @@
   /* Add some padding inside the card container */
 .container {
     padding: 1rem;
-    width: 300px;
-    height: 350px;
     max-width: 100%;
     margin-bottom: 3rem;
 }
 
 .image{
-    width: 300px;
-    height: 350px;
     max-width: 100%;
     border: 4px solid #f2b10b;
     border-radius: 10px;
+    width: 90%;
+    height: 90%;
 }
 
 .image:hover{
@@ -55,6 +52,7 @@
 
 .layered-card {
     position: relative;
+    width: 400px;
 }
 
 .layered-card::before {
@@ -64,8 +62,8 @@
     border-radius: 10px;
     position: absolute;
     transform: translate(-0.6rem, -0.7rem);
-    height: 90%;
     width: 90%;
+    height: 90%;
     z-index: -1;
 }
 
@@ -73,9 +71,13 @@
     background: #f2b10b;
 }
 
+.container {
+    width: 400px;
+    text-overflow: ellipsis;
+}
+
 .container h4{
     margin: 0;
-    font-family: 'Oxygen', sans-serif;
     font-weight: 600;
     font-size: 25px;
     color: #2f2762;
@@ -84,14 +86,12 @@
 .container h3{
     margin: 5px;
     font-size: 20px;
-    font-family: 'Oxygen', sans-serif;
     color: orangered;
 }
 
 .container span{
     font-size: 24px;
     box-sizing: border-box;
-    font-family: 'Overpass', sans-serif;
     color: rgb(120, 105, 105);
 }
 

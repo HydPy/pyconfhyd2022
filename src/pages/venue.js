@@ -4,14 +4,13 @@ import VenueData from '../data/venue.yml';
 import '../static/stylesheets/venue.css'
 const Venue = ({data }) => {
     return (
-        <div className='center-it'>
-            <div>
+        <div className='center-it-a'>
                 <div className='heading'>
-                <SectionHeading>
+                    <SectionHeading>
                     Venue
-                </SectionHeading>
+                    </SectionHeading>
                 </div>
-                <div className='flex-it'>
+                <div className='flex-it-a'>
                 {VenueData.map((venue)=>
                     (
                     <div key={venue.id} as='li' className='card'>
@@ -20,7 +19,7 @@ const Venue = ({data }) => {
                             <img className='image' src={venue.image_link} />
                             </div>
                         </div>
-                        
+
                         <div className='container'>
                             <h4><strong>{venue.name}</strong></h4>
                             <h3>{venue.date}</h3>
@@ -30,10 +29,10 @@ const Venue = ({data }) => {
                                 <a className='dwd-link' href={venue.map_link}>View Locaion</a>
                             </div>
                         </div>
-                    </div>))}
+                    </div>
+                    ))}
                 </div>
             </div>
-        </div>
     )
 }
 

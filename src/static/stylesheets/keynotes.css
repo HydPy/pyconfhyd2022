@@ -6,6 +6,7 @@
     justify-content: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    flex-direction: column;
 }
 
 .heading{
@@ -14,21 +15,22 @@
 }
 
 .flex-it{
+    margin-top: 18px;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
     justify-content: space-around;
 }
 
 .keynote_card{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
+    justify-content: center;
+    padding-bottom: 80px;
     /* position:absolute; */
     /* width: 924px;
     height: 379px;
     margin: 10px; */
     /* background: linear-gradient(180deg, #2F3136 0%, #2F3136 100%); */
-    padding: 30px;
 }
 
 .keynote_card:nth-child(odd) .layered-card{
@@ -70,14 +72,23 @@
 
 .keynote_detail{
     width: 490px;
-    height: 300px;
     text-align: center;
-    align-items: center;
     padding: 20px;
 }
 
+@media screen and (max-width: 768px) {
+    .keynote_detail{
+        width: 96%;
+        height: auto;
+        
+    }
+    .keynote_bio{
+        margin: 20px 0px;
+    }
+}
+
 .keynote_name{
-    font-family: 'Oxygen';
+    /* font-family: 'Oxygen'; */
     font-style: normal;
     font-weight: 700;
     font-size: 32px;
@@ -91,10 +102,8 @@
 }
 
 .keynote_bio{
-    width: 439px;
-    height: 85px;
-
-    font-family: 'Sono', sans-serif;
+    margin: 30px 0;
+    /* font-family: 'Sono', sans-serif; */
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
