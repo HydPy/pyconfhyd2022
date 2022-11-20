@@ -5,7 +5,7 @@ import SponsorCard from "../components/sponsor-card";
 import { Header } from "../components/header";
 import { jsx, Container } from "theme-ui";
 import "../assets/stylesheets/application.scss";
-import "./sponsors.css";
+import "../assets/stylesheets/sponsors.css";
 import sponsorsData from "../data/sponsors.yml";
 
 const Sponsors = () => {
