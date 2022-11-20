@@ -3,7 +3,7 @@ import ScheduleCard from "../components/schedule-card"
 import SectionHeading from "../components/section-heading";
 import Confdata from '../data/conference-schedule.yml'
 import Workdata from '../data/workshop-schedule.yml'
-import '../static/stylesheets/timetable.css'
+import '../assets/stylesheets/timetable.css'
 
 const TimeTable = ({
     data,

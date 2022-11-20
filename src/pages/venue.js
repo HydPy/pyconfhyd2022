@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionHeading from '../components/section-heading';
 import VenueData from '../data/venue.yml';
-import '../static/stylesheets/venue.css'
+import '../assets/stylesheets/venue.css'
 const Venue = ({data }) => {
     return (
         <div className='center-it-a'>
