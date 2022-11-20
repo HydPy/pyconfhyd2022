@@ -8,7 +8,6 @@ import Speakers from "./speakers";
 import Keynotes from "./keynotes";
 import Venue from "./venue";
 import TimeTable from "./timetable";
-import Sponsors from "./sponsors";
 
 const IndexPage = () => {
   return (
