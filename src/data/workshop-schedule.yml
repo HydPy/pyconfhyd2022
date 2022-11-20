@@ -1,0 +1,36 @@
+- time: 9:00AM - 10:00AM
+  workList:
+    - title: Workshop Registration
+    - title: Breakfast
+
+- time: 10:00AM - 1:00PM
+  workList:
+    - title: Containarized Development using Docker
+      speaker: Sanchit Balchandani
+      room: Room-101
+    - title: Computational Linear Algebra & Applications in Data Science
+      speaker: Jaidev Deshpande
+      room: Room-102 
+    - title: Building ML Applications with Gramex
+      speaker: Bhanu K
+      room: Room-103
+    - title: Young Learners Workshop
+      speaker: <TBD>  
+      room: Room-104
+
+- time: 1:00PM - 2:00PM
+  workList:
+    - title: Networking
+    - title: Lunch Break
+
+- time: 2:00AM - 5:00PM
+  workList:
+    - title: Build sophisticated REST api using Django Rest Framework
+      speaker: Akshar Raaj
+      room: Room-101
+    - title:  Building a Recommender System in Python
+      speaker: Dr. Sarabjot Singh Anand
+      room: Room-102 
+    - title: Animating Science using Python
+      speaker:  Purusharth Saxena
+      room: Room-103

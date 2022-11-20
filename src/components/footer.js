@@ -1,0 +1,23 @@
+import React from "react";
+import logo from "../static/images/Pyconf_2022_03.webp";
+
+export const Footer = () => (
+<footer id="myFooter">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <img src={logo} width={180} height={62} loading="eager" />
+        </div>
+        <div class="footer-contact-us">
+            <p>Contact-us : contact@hydpy.org</p>
+        </div>
+    </div>
+    <div class="social-networks">
+        <a target="blank" href="https://twitter.com/pyconfhyd" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a target="blank" href="https://www.instagram.com/pyconfhyd/" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a target="blank" href="https://github.com/hydpy" class="github"><i class="fa fa-github"></i></a>
+    </div>
+    <div class="footer-copyright">
+        <p>Copyright © 2022 PyConf Hyderabad</p>
+    </div>
+</footer>
+);

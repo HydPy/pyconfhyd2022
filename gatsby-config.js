@@ -10,6 +10,7 @@ module.exports  = {
     siteUrl: `https://pyconf.hydpy.org/2022`,
   },
   plugins: [
+    "gatsby-plugin-theme-ui",
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
@@ -43,6 +44,18 @@ module.exports  = {
         path: "./src/misc/",
       },
       __key: "misc",
+    },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          "G-3KN0M0HRMD",
+        ],
+        pluginConfig: {
+          // Puts tracking script in the head instead of the body
+          head: true,
+        },
+      },
     },
   ],
 };
