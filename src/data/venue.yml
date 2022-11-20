@@ -1,0 +1,16 @@
+- id: 1
+  name: EPAM Systems
+  type: Workshop
+  date: 10th Oct 2022
+  location: 10, 11 & 12th Floors, Salarpuria Sattva Knowledge City, Plot No. 2, Phase - 1, Survey No. 83/1, Raidurgam Village, Serilingampally Mandal, Hyderabad, Telangana 500081
+  map_link: https://goo.gl/maps/dqip4KVs3iuuGGyy7
+  image_link: https://lh5.googleusercontent.com/p/AF1QipP7fL0wEYZsrECHQ4gfMqMstp4H-zfoy9aKbLwW=w1080-k-no
+
+
+- id: 2
+  name: T-Hub
+  type: Conference
+  date: 11th Oct 2022
+  location: 20, Inorbit Mall Rd, Vittal Rao Nagar, Madhapur, Hyderabad, Telangana 500081
+  map_link:  https://goo.gl/maps/vzTZAzZNHfDg6nuv9
+  image_link: https://static.india.com/wp-content/uploads/2022/06/kcr-t.jpg

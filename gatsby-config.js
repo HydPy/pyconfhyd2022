@@ -40,6 +40,14 @@ module.exports  = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
+        name: "static",
+        path: `${__dirname}/src/static/`,
+      },
+      __key: "static",
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
         name: "misc",
         path: "./src/misc/",
       },
