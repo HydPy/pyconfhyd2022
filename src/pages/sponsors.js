@@ -1,27 +1,31 @@
+/** @jsx jsx */
 import React from "react";
-import FlexList from "../components/flex-list";
 import SectionHeading from "../components/section-heading";
 import SponsorCard from "../components/sponsor-card";
 import { Header } from "../components/header";
+import { jsx, Container } from "theme-ui";
 import "../assets/stylesheets/application.scss";
 import "./sponsors.css";
 import sponsorsData from "../data/sponsors.yml";
 
-export const Sponsors = () => {
+const Sponsors = () => {
   const sponsors = sponsorsData.tiers.filter((t) => t.sponsors.length > 0);
   return (
     <div className="body-wrap">
-      <Header bg={"#2f2762"} classHeader={"absolute"} />
-      <article>
-        {sponsors.length > 0 && <hr />}
+      <Header bg={"#000"} classHeader={"header-misc"} />
+      <Container p={5}>
+        <article>
+          <SectionHeading mt={30}>Our Sponsors</SectionHeading>
+          {sponsors.length > 0 && <hr />}
 
-        {sponsors.map((tier, index) => (
-          <>
-            <SponsorTier tier={tier} />
-            {index !== sponsors.length - 1 && <hr />}
-          </>
-        ))}
-      </article>
+          {sponsors.map((tier, index) => (
+            <>
+              <SponsorTier tier={tier} />
+              {index !== sponsors.length - 1 && <hr />}
+            </>
+          ))}
+        </article>
+      </Container>
     </div>
   );
 };
