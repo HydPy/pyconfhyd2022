@@ -1,6 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Oxygen);
-@import url(https://fonts.googleapis.com/css?family=Lobster);
-@import url(https://fonts.googleapis.com/css?family=Overpass); 
 .center-it-a{
     display: flex;
     justify-content: center;
@@ -70,7 +67,7 @@
 .layered-card:hover::before{
     background: #f2b10b;
 }
-
+ 
 .container {
     width: 400px;
     text-overflow: ellipsis;
@@ -93,7 +90,7 @@
     font-size: 24px;
     box-sizing: border-box;
     color: rgb(120, 105, 105);
-}
+} 
 
 .location-button {
     position: relative;

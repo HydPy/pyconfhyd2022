@@ -2,13 +2,11 @@ import * as React from "react";
 import { graphql } from "gatsby";
 import { Header } from "../components/header";
 import Layout from "./../components/layout";
-import "../assets/stylesheets/application.scss";
 
 const MiscPage = ({ data, children }) => {
   return (
     <>
-      <Header classHeader={"header-misc"} />
-      {data}
+      <Header bg={"#000"} classHeader={"header-misc"} />
       <Layout pageTitle="layout test">
         {children}
       </Layout>
