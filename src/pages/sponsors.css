@@ -87,3 +87,11 @@
 .sponsors__logos img {
     max-width: 90%;
 }
+
+@media (max-width: 768px){
+    /* section heading */
+    h3{
+        padding: 0 !important;
+        font-size: 30px !important;
+    }
+}
