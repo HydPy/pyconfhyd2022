@@ -23,7 +23,7 @@ module.exports  = {
         start_url: `/`,
         background_color: `#ffffff`,
         display: `minimal-ui`,
-        icon: "src/assets/images/icon.png",
+        icon: "src/images/icon.png",
       },
     },
     "gatsby-plugin-mdx",
