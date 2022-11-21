@@ -6,7 +6,7 @@ import Layout from "./../components/layout";
 const MiscPage = ({ data, children }) => {
   return (
     <>
-      <Header classHeader={"header-misc"}/>
+      <Header bg={"#000"} classHeader={"header-misc"} />
       <Layout pageTitle="layout test">
         {children}
       </Layout>

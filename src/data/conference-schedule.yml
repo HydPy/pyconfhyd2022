@@ -1,95 +1,123 @@
-- time: 9:20AM - 9:30AM
-  workList:
-    - title: Welcome Note
-      speaker: <TBD>
-      room: Conference Hall
-
-- time: 9:30AM - 10:30AM
+- time: 09:30AM
   workList:
     - title: Keynote [Opening]
-      speaker: <TBD> [Dr. Sarabjot Singh Anand]
-      room: Conference Hall
+      time: 9:30AM - 10:30AM
+      speaker: Sebastian Ramirez
+      track: Conference Hall
+      discription:
 
-- time: 10:30AM - 11:00AM
+- time: 10:30AM
   workList:
-    - title: Talk - 1 [Managing Production Data Prep Pipelines]
-      speaker: <TBD> [Dr. Venkata Pingali]
-      room: Room-101
-
-- time: 11:00AM - 11:30AM
+    - title: Talk - 1 [Monorepos with Python]
+      time: 10:30AM - 11:00AM
+      speaker: AbdealiJK 
+      track: Conference Hall
+      discription: Working with python is fun.
+                   Managing python packaging, linters, tests, CI, etc. is not as fun. 
+                   Every maintainer needs to worry about consistent styling, quality, speed of tests, etc as the project grows.
+                   Monorepos have been successful in other communities - how does it work in Python ?
+- time: 11:00AM
   workList:
-    - title: Talk - 2 [Celery is digestive]
-      speaker: <TBD> [Abhishek Mishra]
-      room: Room-102
-
-- time: 11:30AM - 11:45AM
+    - title: Talk - 2 [Coconut- Pythonic Functional Programming]
+      time: 11:00AM - 11:30AM
+      speaker: Kesia Mary Joies 
+      track: Conference Hall
+      discription: Isnt it interesting to learn a programming language that is a superset of Python and is capable of adding on some cool functional programming features? If you want to write all your code purely functionally, Coconut is here for a smooth experience- simple, cleaner, readable code.
+    
+- time: 11:30AM 
   workList:
-    - title: Break
+    - title: Tea / Coffee Break
+      time: 11:30AM - 11:45AM
+      speaker: Food Partner
+      track: Cafetria
+      description: Enjoy the tea and network.
 
-- time: 11:45AM - 12:15PM
+
+- time: 11:45AM 
   workList:
-    - title: Talk-3 [Differentiable programming]
-      speaker: <TBD> [Srikumar Subramanian]
-      room: Room-101
+    - title: Talk-3 [Building a Multi-tenant Software-as-a-Service solution with Django and Django-Tenants]
+      time: 11:45AM - 12:15PM
+      speaker: Jatin Goel
+      track: Conference Hall
+      discription: Modern solutions require to be scalable and cater to the needs of different customers by keeping their data segregated. Come explore how we can build scalable solutions with Django and truly make a Multi-Tenant solution, different ways possible to achieve this and how we’ve cracked that tough nut.
 
-- time: 12:15PM - 12:45PM
-  workList:
-    - title: Talk-4 [Continuous Quality for Python What, How and Why]
-      speaker: <TBD> [Sanket Saurav]
-      room: Room-102
+- time: 12:15PM
+  workList:    
+    - title: Talk-4 [Sponsored Talk from EPAM followed by Innominds (Platinum Sponsors)]
+      time: 12:15PM - 12:45PM
+      speaker: TBA
+      track: Conference Hall
+      discription: Sponsored Talks.
 
-- time: 12:45PM - 1:45PM
+- time: 12:45PM 
   workList:
     - title: Lunch
+      time: 12:45PM - 1:45PM
+      speaker: Food Partner 
+      track: Cafetria
+      discription: Enjoy the lunch and network.
 
-- time: 1:45PM - 2:15PM
+- time: 1:45PM 
   workList:
-    - title: Talk-5 (Sponsored) [ISB Sponsored Talk - Python Usage in Data Science]
-      speaker: <TBD> [Suryanarayana Ambatipudi]
-      room: Room-101
+    - title: Talk-5 [Let us PyScript!]
+      time: 1:45PM - 2:15PM
+      speaker: AbdulMajedRaja RS
+      track: Conference Hall
+      discription: PyScript lets you write Python Code inside HTML to create Client-Side Web apps (Remember PHP?). Still early days but I believe it’s going to be huge in the future, so why not teach everyone about this? Let us PyScript to build Python based Web apps that are just HTML files.
 
-- time: 2:15PM - 2:45PM
+- time: 2:15PM 
+  workList:    
+    - title: Talk-6 [Sniffing your way through the network]
+      time: 2:15PM - 2:45PM
+      speaker: Saurabh Nandedkar 
+      track: Conference Hall
+      discription: Have you ever wondered what are all the different things that you can do with Python? It’s obviously not just writing web applications or processing CSV, right? You are absolutely correct there’s so much more that we can do we it and in this talk, I will demonstrate working with raw network traffic.
+
+- time: 2:45PM 
   workList:
-    - title: Talk-6 [Scalable Automated Machine learning with H2O in Python]
-      speaker: <TBD> [Parul Pandey]
-      room: Room-102
+    - title: Drinks Break
+      time: 2:45PM - 3:00PM
+      speaker: participants
+      track: Cafetria
+      discription: Tea Break + Networking.
 
-- time: 2:45PM - 3:00PM
+- time: 3:00PM 
   workList:
-    - title: Break
+    - title: Talk-7 [Panel Discussion]
+      time: 3:00PM - 3:30PM
+      speaker: TBA
+      track: Conference Hall
+      discription: Panel Discussion, Topic - TBA.
+    
+- time: 3:30PM 
+  workList:    
+    - title: Talk-8 [Role of Digital Twin towards Sustainability]
+      time: 3:30PM - 4:00PM
+      speaker: Sharmistha Chatterjee 
+      track: Conference Hall
+      discription: The aim of this talk is to enable sustainable development with a digital twin model, which can help data scientists, environmentalists, and climate experts to anticipate environmental/network changes (be it climate, or operator network) and mitigate their impacts by design, modeling and simulations.
 
-- time: 3:00PM - 3:30PM
+- time: 4:00PM 
   workList:
-    - title: Talk-7 (Sponsored) [Atlassian Sponsored Talk - Machine Learning in Healthcare]
-      speaker: <TBD> [Saurabh Khandelwal]
-      room: Room-101
+    - title: Lightining Talks (6)
+      time: 4:00PM - 4:30PM
+      speaker: Ashok Tankala, Hemangi Karchalkar , Kaushal 
+      track: Conference Hall
+      discription:
 
-- time: 3:30PM - 4:00PM
+- time: 4:30PM
   workList:
-    - title: Talk-8 [Understanding Air Pollution pre+post Diwali in Indian cities using Satellite Imagery]
-      speaker: <TBD> [Gokulavasan Murali]
-      room: Room-102
+    - title: Talk-9 [Exploring Abstract Syntax Trees by writing a linter with Python's ast module]
+      time: 4:30PM - 5:00PM
+      speaker: Yashvardhan Kukreja 
+      track: Conference Hall
+      discription: Aliquip ea sunt eiusmod velit.
 
-- time: 4:00PM - 4:30PM
-  workList:
-    - title: Lightining Talks (5)
-      speaker: <TBD>
-      room: Conference Hall
-
-- time: 4:30PM - 5:00PM
-  workList:
-    - title: Talk-9 [Rethinking Python Packaging -- a thought experiment]
-      speaker: <TBD> [Pradyun Gedam]
-      room: Room-101
-
-- time: 5:00PM - 6:00PM
+- time: 5:00PM 
   workList:
     - title: Keynote [Closing]
-      speaker: <TBD> [Zainab Bawa]
-      room: Conference Hall
-
-- time: 6:00PM - 6:15PM
-  workList:
-    - title: Thank You Note
-      speaker: <TBD>
-      room: Conference Hall
+      time: 5:00PM - 6:00PM
+      speaker: Usha Rengaraju
+      track: Conference Hall
+      discription:
+    

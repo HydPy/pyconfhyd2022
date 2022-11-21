@@ -1,0 +1,12 @@
+.misc .container {
+    width: 100% !important;
+    max-width: 1380px !important;
+    text-overflow: unset;
+    padding: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .misc .container.pt-40 {
+        padding: 12rem;
+    }
+}

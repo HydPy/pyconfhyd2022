@@ -6,6 +6,7 @@ import SectionHeading from '../components/section-heading';
 import SpeakerCard from '../components/speaker-card';
 import SpeakerData from '../data/speakers.yml';
 import KeynoteData from '../data/keynotes.yml'
+import "../assets/stylesheets/application.scss";
 
 const Speakers = ({
   data,

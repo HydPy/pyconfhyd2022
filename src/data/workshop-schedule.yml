@@ -1,36 +1,66 @@
-- time: 9:00AM - 10:00AM
+- time: 09:00AM
   workList:
     - title: Workshop Registration
-    - title: Breakfast
+      discription: Registration. 
+      track: 11th Floor Security
+      speaker: Session Chair
+      time: 9:00AM - 9:30AM
+    - title: Tea/Coffee
+      discription: Tea/Coffee & Network.
+      track: Cafetria
+      speaker: Food Partner
+      time: 9:30AM - 10:00AM
 
-- time: 10:00AM - 1:00PM
+- time: 10:00AM
   workList:
-    - title: Containarized Development using Docker
-      speaker: Sanchit Balchandani
-      room: Room-101
-    - title: Computational Linear Algebra & Applications in Data Science
-      speaker: Jaidev Deshpande
-      room: Room-102 
-    - title: Building ML Applications with Gramex
-      speaker: Bhanu K
-      room: Room-103
+    - title: Decorators and Generators - Control your code with ease
+      speaker: Satyam Soni
+      discription: Decorators and Generators are very powerful and super handy constructs in Python when it comes to write re-usable code and controlled flow. Most of the Python developers know or would have heard of these constructs but only a few know how they are used.
+      track: Track-101
+      time: 10:00AM - 01:00PM
+    - title: Scaling the PyData Ecosystem with Dask
+      speaker: Pavithra Eswaramoorthy
+      discription: Dask is a library for parallel computing in Python. You will learn to - Scale PyData tools (Numpy, pandas, etc.) to larger-than-memory and distributed environments, - Use interactive diagnostic tools to understand performance, - Customize workflows with low-level APIs, and deploy Dask clusters. 
+      track: Track-102 
+      time: 10:00AM - 1:00PM
+    - title: Deploying Diffusion Models at Scale
+      speaker: Aniket Maurya
+      discription: Learn to deploy a text-to-image machine learning model (Stable Diffusion) supporting 500+ concurrent users. Deploying large AI models is not trivial; we will explore overcoming infrastructure challenges, building autoscaling and dynamic batching, maximizing your GPU, and serving ML models at scale. 
+      track: Track-103
+      time: 10:00AM - 1:00PM
     - title: Young Learners Workshop
-      speaker: <TBD>  
-      room: Room-104
+      speaker: Bhanu K & his team  
+      discription: Python Workshop for kids using Microbits.
+      track: Track-104
+      time: 10:00AM - 1:00PM
 
-- time: 1:00PM - 2:00PM
+- time: 1:00PM
   workList:
     - title: Networking
+      speaker: participants
+      discription: Network with fellow Attendees & meet Sponsors.
+      track: Sponsor hall way
+      time: 1:00PM - 1:15PM
     - title: Lunch Break
+      speaker: Food Partner
+      discription: Cafeteria/Hall way.
+      track: Cafetria
+      time: 1:15PM - 2:00PM
 
-- time: 2:00AM - 5:00PM
+- time: 2:00PM
   workList:
-    - title: Build sophisticated REST api using Django Rest Framework
-      speaker: Akshar Raaj
-      room: Room-101
-    - title:  Building a Recommender System in Python
-      speaker: Dr. Sarabjot Singh Anand
-      room: Room-102 
-    - title: Animating Science using Python
-      speaker:  Purusharth Saxena
-      room: Room-103
+    - title: Python for Data Analysis
+      speaker: Sasidhar Donaparthi
+      discription: This workshop will cover how Python can be used for Data Analysis using packages like numpy and pandas. At the end of the session, attendees will be able to apply/perform techniques like data transformations, understanding the data, dealing with data exceptions like missing values, outliers, etc.. 
+      track: Track-101
+      time: 02:00PM - 5:00PM
+    - title:  TBA
+      speaker: TBA
+      discription: TBA
+      track: Track-102 
+      time: 02:00PM - 5:00PM
+    - title: TBA
+      speaker:  TBA
+      discription: TBA
+      track: Track-103
+      time: 02:00PM - 5:00PM

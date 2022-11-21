@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen);
+@import url(https://fonts.googleapis.com/css?family=Overpass);
+.center-it{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.flex-it{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.keynote_card{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding-bottom: 80px;
+    /* position:absolute; */
+    /* width: 924px;
+    height: 379px;
+    margin: 10px; */
+    /* background: linear-gradient(180deg, #2F3136 0%, #2F3136 100%); */
+}
+
+.keynote_card:nth-child(odd) .layered-card{
+    float: right;
+}
+
+
+.keynote_image{
+    width: 320.83px;
+    height: 300.79px;
+    border: 4px solid #2f2762;
+    border-radius: 5% 20%;
+}
+
+
+.keynote_image:hover{
+    border: 5px solid #f2b10b;
+}
+
+.keynote_card .layered-card {
+    position: relative;
+}
+
+.keynote_card .layered-card::before {
+    /* background: #d1d5db; */
+    content: '';
+    background: #f2b10b;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(-0.6rem, -0.7rem);
+    height: 90%;
+    width: 90%;
+    z-index: -1;
+}
+
+.keynote_card .layered-card:hover::before{
+    background: #2f2762;
+}
+
+.keynote_detail{
+    width: 490px;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .keynote_detail{
+        width: 96%;
+        height: auto;
+        
+    }
+    .keynote_bio{
+        margin: 20px 0px;
+    }
+}
+
+.keynote_name{
+    /* font-family: 'Oxygen'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 60px;
+
+    /* or 125% */
+    /* text-align: center; */
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+    color: #2f2762;     ;
+}
+
+.keynote_bio{
+    margin: 30px 0;
+    /* font-family: 'Sono', sans-serif; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+
+    /* or 111% */
+    text-align: center;
+    /* letter-spacing: 0.25px; */
+    text-transform: capitalize;
+
+    color: rgb(120, 105, 105);
+}
+
+.keynote_social{
+    color: orangered;
+}

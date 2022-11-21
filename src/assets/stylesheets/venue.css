@@ -1,0 +1,127 @@
+.center-it-a{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.heading{
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.flex-it-a{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s; */
+    padding: 30px;
+    /* justify-content: space-between; */
+}
+  /* On mouse-over, add a deeper shadow
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+} */
+  
+  /* Add some padding inside the card container */
+.container {
+    padding: 1rem;
+    max-width: 100%;
+    margin-bottom: 3rem;
+}
+
+.image{
+    max-width: 100%;
+    border: 4px solid #f2b10b;
+    border-radius: 10px;
+    width: 90%;
+    height: 90%;
+}
+
+.image:hover{
+    border: 4px solid #2f2762;
+}
+
+.layered-card {
+    position: relative;
+    width: 400px;
+}
+
+.layered-card::before {
+    /* background: #d1d5db; */
+    content: '';
+    background: #2f2762;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-0.6rem, -0.7rem);
+    width: 90%;
+    height: 90%;
+    z-index: -1;
+}
+
+.layered-card:hover::before{
+    background: #f2b10b;
+}
+ 
+.container {
+    width: 400px;
+    text-overflow: ellipsis;
+}
+
+.container h4{
+    margin: 0;
+    font-weight: 600;
+    font-size: 25px;
+    color: #2f2762;
+}
+
+.container h3{
+    margin: 5px;
+    font-size: 20px;
+    color: orangered;
+}
+
+.container span{
+    font-size: 24px;
+    box-sizing: border-box;
+    color: rgb(120, 105, 105);
+} 
+
+.location-button {
+    position: relative;
+}
+
+.location-button a::before {
+    content: "";
+    position: absolute;
+    background: #f2b10b;
+    height: 5px;
+    top: -8px;
+    left: 0;
+    width: 100% !important;
+  }
+
+.location-button a:hover::before{
+    background: #2f2762;
+}
+
+.location-button  a {
+    background: #051237;
+    padding: 10px 25px;
+    color: #fff;
+    display: inline-block;
+    margin-top: 35px;
+    position: relative;
+    cursor: pointer !important;
+    line-height: 2rem;
+}
+
+.location-button a:hover {
+    background: #f2b10b;
+    color:black
+}
