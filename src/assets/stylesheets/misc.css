@@ -5,6 +5,8 @@
     padding: 2rem;
 }
 
-.misc .container.pt-40{
-    padding: 12rem;
+@media screen and (min-width: 768px) {
+    .misc .container.pt-40 {
+        padding: 12rem;
+    }
 }
