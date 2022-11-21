@@ -18,8 +18,8 @@ const Keynotes = () => {
             <div className='flex-it'>
             {KeynoteData.map((keynote) => (
         <div key={keynote.id} as='li' className='keynote_card' {...keynote}>
-            <div class="layered-card">
-                <div class="layered-card__content">
+            <div class="layered-card-a">
+                <div class="layered-card__content-a">
                 <img className='keynote_image' src={keynote.image} />
                 </div>
             </div>
