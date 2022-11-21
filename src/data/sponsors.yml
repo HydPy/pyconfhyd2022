@@ -4,25 +4,25 @@ tiers:
       - name: epam
         companyName: EPAM
         companyWebsite:
-        image: ../sponsors/epam.png # need to pass image name only here
+        image: ../2022/sponsors/epam.png # need to pass image name only here
 
       - name: innominds
         companyName: Innominds
         companyWebsite:
-        image: ../sponsors/innominds.webp
+        image: ../2022/sponsors/innominds.webp
   - name: Gold
     sponsors:
       - name: Essentia
         type: Gold
         companyName: Essentia
         companyWebsite:
-        image: ../sponsors/essenta-logo-portrait.png
+        image: ../2022/sponsors/essenta-logo-portrait.png
 
       - name: Creliohealth
         type: Gold
         companyName: Creliohealth
         companyWebsite:
-        image: ../sponsors/crelio.jpg
+        image: ../2022/sponsors/crelio.jpg
 
   - name: Silver
     sponsors:
@@ -30,7 +30,7 @@ tiers:
         type: Silver
         companyName: Gridlex
         companyWebsite:
-        image: ../sponsors/gridlex.png
+        image: ../2022/sponsors/gridlex.png
         
   - name: Associate
     sponsors:
@@ -38,4 +38,4 @@ tiers:
         type: Associate
         companyName: Zentropy
         companyWebsite:
-        image: ../sponsors/zentropy.png
+        image: ../2022/sponsors/zentropy.png
