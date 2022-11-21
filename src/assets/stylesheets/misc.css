@@ -1,0 +1,10 @@
+.misc .container {
+    width: 100% !important;
+    max-width: 1380px !important;
+    text-overflow: unset;
+    padding: 2rem;
+}
+
+.misc .container.pt-40{
+    padding: 12rem;
+}
