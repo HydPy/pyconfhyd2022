@@ -18,9 +18,9 @@
       discription: Decorators and Generators are very powerful and super handy constructs in Python when it comes to write re-usable code and controlled flow. Most of the Python developers know or would have heard of these constructs but only a few know how they are used.
       track: Track-101
       time: 10:00AM - 01:00PM
-    - title: Scaling the PyData Ecosystem with Dask
-      speaker: Pavithra Eswaramoorthy
-      discription: Dask is a library for parallel computing in Python. You will learn to - Scale PyData tools (Numpy, pandas, etc.) to larger-than-memory and distributed environments, - Use interactive diagnostic tools to understand performance, - Customize workflows with low-level APIs, and deploy Dask clusters. 
+    - title: TBA
+      speaker: TBA
+      discription: TBA. 
       track: Track-102 
       time: 10:00AM - 1:00PM
     - title: Deploying Diffusion Models at Scale

@@ -8,7 +8,7 @@
 
 - time: 10:30AM
   workList:
-    - title: Talk - 1 [Monorepos with Python]
+    - title: Monorepos with Python
       time: 10:30AM - 11:00AM
       speaker: AbdealiJK 
       track: Conference Hall
@@ -18,7 +18,7 @@
                    Monorepos have been successful in other communities - how does it work in Python ?
 - time: 11:00AM
   workList:
-    - title: Talk - 2 [Coconut- Pythonic Functional Programming]
+    - title: Coconut- Pythonic Functional Programming
       time: 11:00AM - 11:30AM
       speaker: Kesia Mary Joies 
       track: Conference Hall
@@ -35,7 +35,7 @@
 
 - time: 11:45AM 
   workList:
-    - title: Talk-3 [Building a Multi-tenant Software-as-a-Service solution with Django and Django-Tenants]
+    - title: Building a Multi-tenant Software-as-a-Service solution with Django and Django-Tenants
       time: 11:45AM - 12:15PM
       speaker: Jatin Goel
       track: Conference Hall
@@ -43,7 +43,7 @@
 
 - time: 12:15PM
   workList:    
-    - title: Talk-4 [Sponsored Talk from EPAM followed by Innominds (Platinum Sponsors)]
+    - title: Sponsored Talk from EPAM followed by Innominds (Platinum Sponsors)
       time: 12:15PM - 12:45PM
       speaker: TBA
       track: Conference Hall
@@ -59,7 +59,7 @@
 
 - time: 1:45PM 
   workList:
-    - title: Talk-5 [Let us PyScript!]
+    - title: Let us PyScript!
       time: 1:45PM - 2:15PM
       speaker: AbdulMajedRaja RS
       track: Conference Hall
@@ -67,7 +67,7 @@
 
 - time: 2:15PM 
   workList:    
-    - title: Talk-6 [Sniffing your way through the network]
+    - title: Sniffing your way through the network
       time: 2:15PM - 2:45PM
       speaker: Saurabh Nandedkar 
       track: Conference Hall
@@ -83,7 +83,7 @@
 
 - time: 3:00PM 
   workList:
-    - title: Talk-7 [Panel Discussion]
+    - title: Panel Discussion
       time: 3:00PM - 3:30PM
       speaker: TBA
       track: Conference Hall
@@ -91,7 +91,7 @@
     
 - time: 3:30PM 
   workList:    
-    - title: Talk-8 [Role of Digital Twin towards Sustainability]
+    - title: Role of Digital Twin towards Sustainability
       time: 3:30PM - 4:00PM
       speaker: Sharmistha Chatterjee 
       track: Conference Hall
@@ -107,11 +107,11 @@
 
 - time: 4:30PM
   workList:
-    - title: Talk-9 [Exploring Abstract Syntax Trees by writing a linter with Python's ast module]
+    - title: TBA
       time: 4:30PM - 5:00PM
-      speaker: Yashvardhan Kukreja 
+      speaker: TBA
       track: Conference Hall
-      discription: Aliquip ea sunt eiusmod velit.
+      discription: TBA
 
 - time: 5:00PM 
   workList:
