@@ -5,6 +5,10 @@
     padding: 2rem 0;
 }
 
+.sponsors-article{
+    padding: 60px;
+}
+
 .sponsors__logos img {
     max-height: 10rem;
     max-width: 28rem;
@@ -91,17 +95,28 @@
     max-height: 200px;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+/* mobile styles */
 @media (max-width: 768px){
     /* section heading */
     h3{
         padding: 0 !important;
         font-size: 30px !important;
     }
-}
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+    .sponsors-article{
+        padding: 12px;
+    }
+
+    .center {
+        width: 90%;
+    }
+
+}

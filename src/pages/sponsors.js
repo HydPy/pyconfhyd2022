@@ -12,8 +12,7 @@ const Sponsors = () => {
   const sponsors = sponsorsData.tiers.filter((t) => t.sponsors.length > 0);
   return (
     <div className="body-wrap">
-      <Container p={5}>
-        <article>
+        <article className="sponsors-article">
           <SectionHeading mt={30} style={{display:'flex', justifyContent: 'center'}}>Our Sponsors</SectionHeading>
           {sponsors.length > 0 && <hr />}
 
@@ -24,7 +23,6 @@ const Sponsors = () => {
             </>
           ))}
         </article>
-      </Container>
     </div>
   );
 };
