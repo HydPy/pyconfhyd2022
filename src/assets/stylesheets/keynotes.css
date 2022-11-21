@@ -37,7 +37,25 @@
     float: right;
 }
 
+.layered-card-a {
+    position: relative;
+}
 
+.layered-card-a::before {
+    /* background: #d1d5db; */
+    content: '';
+    background: #f2b10b;
+    border-radius: 7% 20%;
+    position: absolute;
+    transform: translate(-0.8rem, -0.8rem);
+    width: 95%;
+    height: 95%;
+    z-index: -1;
+}
+
+.layered-card-a:hover::before{
+    background: #2f2762;
+}
 .keynote_image{
     width: 320.83px;
     height: 300.79px;
@@ -50,9 +68,6 @@
     border: 5px solid #f2b10b;
 }
 
-.keynote_card .layered-card {
-    position: relative;
-}
 
 .keynote_card .layered-card::before {
     /* background: #d1d5db; */

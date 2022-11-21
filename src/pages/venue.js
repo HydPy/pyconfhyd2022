@@ -16,7 +16,7 @@ const Venue = ({data }) => {
                     <div key={venue.id} as='li' className='card'>
                         <div class="layered-card">
                             <div class="layered-card__content">
-                            <img className='image' src={venue.image_link} />
+                            <img className='venue_image' src={venue.image_link} />
                             </div>
                         </div>
 
