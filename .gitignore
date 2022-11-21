@@ -1,6 +1,4 @@
 node_modules/
 .cache/
 public
-/src/static/stylesheets/sponsors.css
-/src/pages/sponsors.js
-/src/data/sponsors.yml
+.DS_Store

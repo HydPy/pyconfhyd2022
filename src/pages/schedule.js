@@ -7,6 +7,7 @@ import Workdata from '../data/workshop-schedule.yml'
 import SectionHeading from '../components/section-heading'
 import { useState } from 'react'
 import ExperimentalSi from '../components/experimental-si'
+import "../assets/stylesheets/application.scss";
 
 export const buttonsx = (show) => {
   return show?{

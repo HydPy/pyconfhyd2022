@@ -23,10 +23,18 @@ module.exports  = {
         start_url: `/`,
         background_color: `#ffffff`,
         display: `minimal-ui`,
-        icon: "src/static/images/icon.png",
+        icon: "src/images/icon.png",
       },
     },
     "gatsby-plugin-mdx",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "misc",
+        path: "./src/misc/",
+      },
+      __key: "misc",
+    },
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     {
@@ -40,18 +48,10 @@ module.exports  = {
     {
       resolve: "gatsby-source-filesystem",
       options: {
-        name: "static",
-        path: `${__dirname}/src/static/`,
+        name: "assets",
+        path: `${__dirname}/src/assets/`,
       },
-      __key: "static",
-    },
-    {
-      resolve: "gatsby-source-filesystem",
-      options: {
-        name: "misc",
-        path: "./src/misc/",
-      },
-      __key: "misc",
+      __key: "assets",
     },
     {
       resolve: `gatsby-plugin-google-gtag`,

@@ -1,4 +1,5 @@
 import * as React from "react";
+import "../assets/stylesheets/misc.css";
 
 const Layout = ({ pageTitle, children }) => {
   //   const data = useStaticQuery(graphql`
@@ -12,7 +13,7 @@ const Layout = ({ pageTitle, children }) => {
   //   `)
 
   return (
-    <div>
+    <div className='misc'>
       {children}
     </div>
   );

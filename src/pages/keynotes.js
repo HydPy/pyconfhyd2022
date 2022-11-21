@@ -1,6 +1,6 @@
 import React from 'react';
 import KeynoteData from '../data/keynotes.yml';
-import '../static/stylesheets/keynotes.css'
+import '../assets/stylesheets/keynotes.css'
 import {GitHub, Linkedin, Twitter} from 'react-feather'
 import IconLink from '../components/icon-link'
 import SectionHeading from '../components/section-heading';

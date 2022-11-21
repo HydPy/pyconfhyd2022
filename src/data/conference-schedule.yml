@@ -1,23 +1,28 @@
-- time: 09:00AM
+- time: 09:30AM
   workList:
     - title: Keynote [Opening]
       time: 9:30AM - 10:30AM
-      speaker: <TBD> [Dr. Sarabjot Singh Anand]
+      speaker: Sebastian Ramirez
       track: Conference Hall
-      discription: Aute in non veniam reprehenderit Lorem anim dolor.
+      discription:
 
 - time: 10:30AM
   workList:
-    - title: Talk - 1 [Managing Production Data Prep Pipelines]
+    - title: Talk - 1 [Monorepos with Python]
       time: 10:30AM - 11:00AM
-      speaker: <TBD> [Dr. Venkata Pingali]
-      track: Track-101
-      discription: Ut laboris veniam do est quis mollit nulla aute esse in ad elit non labore.
-    - title: Talk - 2 [Celery is digestive]
+      speaker: AbdealiJK 
+      track: Conference Hall
+      discription: Working with python is fun.
+                   Managing python packaging, linters, tests, CI, etc. is not as fun. 
+                   Every maintainer needs to worry about consistent styling, quality, speed of tests, etc as the project grows.
+                   Monorepos have been successful in other communities - how does it work in Python ?
+- time: 11:00AM
+  workList:
+    - title: Talk - 2 [Coconut- Pythonic Functional Programming]
       time: 11:00AM - 11:30AM
-      speaker: <TBD> [Abhishek Mishra]
-      track: Track-102
-      discription: Reprehenderit do do aliqua do dolore dolore exercitation exercitation proident exercitation ipsum Lorem consectetur tempor.
+      speaker: Kesia Mary Joies 
+      track: Conference Hall
+      discription: Isnt it interesting to learn a programming language that is a superset of Python and is capable of adding on some cool functional programming features? If you want to write all your code purely functionally, Coconut is here for a smooth experience- simple, cleaner, readable code.
     
 - time: 11:30AM 
   workList:
@@ -25,21 +30,24 @@
       time: 11:30AM - 11:45AM
       speaker: Food Partner
       track: Cafetria
-      description: Ea est aliqua exercitation qui magna aute fugiat tempor pariatur.
+      description: Enjoy the tea and network.
 
 
 - time: 11:45AM 
   workList:
-    - title: Talk-3 [Differentiable programming]
+    - title: Talk-3 [Building a Multi-tenant Software-as-a-Service solution with Django and Django-Tenants]
       time: 11:45AM - 12:15PM
-      speaker: <TBD> [Srikumar Subramanian]
-      track: Track-101
-      discription: Ullamco elit exercitation deserunt deserunt dolor mollit cupidatat ad.
-    - title: Talk-4 [Continuous Quality for Python What, How and Why]
+      speaker: Jatin Goel
+      track: Conference Hall
+      discription: Modern solutions require to be scalable and cater to the needs of different customers by keeping their data segregated. Come explore how we can build scalable solutions with Django and truly make a Multi-Tenant solution, different ways possible to achieve this and how we’ve cracked that tough nut.
+
+- time: 12:15PM
+  workList:    
+    - title: Talk-4 [Sponsored Talk from EPAM followed by Innominds (Platinum Sponsors)]
       time: 12:15PM - 12:45PM
-      speaker: <TBD> [Sanket Saurav]
-      track: Track-102
-      discription: Fugiat sint proident incididunt proident qui.
+      speaker: TBA
+      track: Conference Hall
+      discription: Sponsored Talks.
 
 - time: 12:45PM 
   workList:
@@ -47,20 +55,23 @@
       time: 12:45PM - 1:45PM
       speaker: Food Partner 
       track: Cafetria
-      discription: Ea est aliqua exercitation qui magna aute fugiat tempor pariatur.
+      discription: Enjoy the lunch and network.
 
 - time: 1:45PM 
   workList:
-    - title: Talk-5 (Sponsored) [ISB Sponsored Talk - Python Usage in Data Science]
+    - title: Talk-5 [Let us PyScript!]
       time: 1:45PM - 2:15PM
-      speaker: <TBD> [Suryanarayana Ambatipudi]
-      track: Track-101
-      discription: Ea sit dolore cupidatat commodo eu nisi in laborum sunt.
-    - title: Talk-6 [Scalable Automated Machine learning with H2O in Python]
+      speaker: AbdulMajedRaja RS
+      track: Conference Hall
+      discription: PyScript lets you write Python Code inside HTML to create Client-Side Web apps (Remember PHP?). Still early days but I believe it’s going to be huge in the future, so why not teach everyone about this? Let us PyScript to build Python based Web apps that are just HTML files.
+
+- time: 2:15PM 
+  workList:    
+    - title: Talk-6 [Sniffing your way through the network]
       time: 2:15PM - 2:45PM
-      speaker: <TBD> [Parul Pandey]
-      track: Track-102
-      discription: Ea est aliqua exercitation qui magna aute fugiat tempor pariatur.
+      speaker: Saurabh Nandedkar 
+      track: Conference Hall
+      discription: Have you ever wondered what are all the different things that you can do with Python? It’s obviously not just writing web applications or processing CSV, right? You are absolutely correct there’s so much more that we can do we it and in this talk, I will demonstrate working with raw network traffic.
 
 - time: 2:45PM 
   workList:
@@ -68,37 +79,45 @@
       time: 2:45PM - 3:00PM
       speaker: participants
       track: Cafetria
-      discription: Reprehenderit aliqua tempor anim non elit irure elit id tempor non amet do nostrud.
+      discription: Tea Break + Networking.
 
 - time: 3:00PM 
   workList:
-    - title: Talk-7 (Sponsored) [Atlassian Sponsored Talk - Machine Learning in Healthcare]
+    - title: Talk-7 [Panel Discussion]
       time: 3:00PM - 3:30PM
-      speaker: <TBD> [Saurabh Khandelwal]
-      track: Track-101
-      discription: Reprehenderit aliqua tempor anim non elit irure elit id tempor non amet do nostrud.
-    - title: Talk-8 [Understanding Air Pollution pre+post Diwali in Indian cities using Satellite Imagery]
+      speaker: TBA
+      track: Conference Hall
+      discription: Panel Discussion, Topic - TBA.
+    
+- time: 3:30PM 
+  workList:    
+    - title: Talk-8 [Role of Digital Twin towards Sustainability]
       time: 3:30PM - 4:00PM
-      speaker: <TBD> [Gokulavasan Murali]
-      track: Track-102
-      discription: In ea commodo ipsum sint duis est elit pariatur ipsum aliquip irure.
+      speaker: Sharmistha Chatterjee 
+      track: Conference Hall
+      discription: The aim of this talk is to enable sustainable development with a digital twin model, which can help data scientists, environmentalists, and climate experts to anticipate environmental/network changes (be it climate, or operator network) and mitigate their impacts by design, modeling and simulations.
+
 - time: 4:00PM 
   workList:
-    - title: Lightining Talks (5)
+    - title: Lightining Talks (6)
       time: 4:00PM - 4:30PM
-      speaker: <TBD>
-      track: Track-101
-      discription: Lorem voluptate in adipisicing aliquip nisi ea exercitation et sit.
-    - title: Talk-9 [Rethinking Python Packaging -- a thought experiment]
+      speaker: Ashok Tankala, Hemangi Karchalkar , Kaushal 
+      track: Conference Hall
+      discription:
+
+- time: 4:30PM
+  workList:
+    - title: Talk-9 [Exploring Abstract Syntax Trees by writing a linter with Python's ast module]
       time: 4:30PM - 5:00PM
-      speaker: <TBD> [Pradyun Gedam]
-      track: Track-102
+      speaker: Yashvardhan Kukreja 
+      track: Conference Hall
       discription: Aliquip ea sunt eiusmod velit.
+
 - time: 5:00PM 
   workList:
     - title: Keynote [Closing]
       time: 5:00PM - 6:00PM
-      speaker: <TBD> [Zainab Bawa]
+      speaker: Usha Rengaraju
       track: Conference Hall
-      discription: Ipsum excepteur consequat ex anim.
+      discription:
     

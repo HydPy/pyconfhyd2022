@@ -2,7 +2,7 @@ import React from "react"
 import {
     PlayCircle, PlusCircle
   } from 'react-feather'
-import '../static/stylesheets/timetable.css'
+import '../assets/stylesheets/timetable.css'
 const ScheduleCard = ({
     track,
     time,
