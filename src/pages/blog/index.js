@@ -1,32 +1,38 @@
 import * as React from "react";
-import { graphql } from "gatsby";
-import { jsx, Container } from "theme-ui";
-import SectionHeading from "../../components/section-heading";
-import {Header} from '../../components/header';
-import {Footer} from '../../components/footer';
-import Layout from "./../../components/layout";
-import bookImage from "../../static/images/faq.webp";
+import { Link, graphql } from "gatsby";
+import BlogLayout from '../../components/blog-layout'
 
-const BlogPage = () => {
-    return (
-        <div className="body-wrap">
-            <Header classHeader={"header-misc"}/>
-            <Container p={5}>
-                <article>
-                <SectionHeading mt={30} style={{display:'flex', justifyContent: 'center'}}>All Blogs</SectionHeading>
-                </article>
-            </Container>
-            <Footer />
-        </div>
-    );
+const BlogPage = ({ data, children }) => {
+  return (
+    <>
+    <BlogLayout pageTitle="All Blogs">
+        {
+            data.allMdx.nodes.map((node) => (
+            <>
+            <article key={node.id}>
+                <h3><Link to={`/blog/${node.frontmatter.slug}`} className="blog-link">{node.frontmatter.title}</Link></h3>
+                <p>Posted: {node.frontmatter.date}</p>
+            </article>
+            <hr/>
+            </>
+            ))
+        }
+    </BlogLayout>
+    </>
+  );
 };
 
 export const query = graphql`
   query {
-    allMdx {
+    allMdx(
+        sort: {fields: frontmatter___date, order: DESC}
+        filter: {frontmatter: {type: {eq: "blog"}}}
+    ) {
         nodes {
             frontmatter {
                 title
+                slug
+                date(formatString: "MMMM D, YYYY")
             }
             id
         }
