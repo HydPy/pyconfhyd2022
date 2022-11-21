@@ -24,11 +24,14 @@ tiers:
         companyWebsite:
         image: ../sponsors/crelio.jpg
 
+  - name: Silver
+    sponsors:
       - name: Gridlex
-        type: Gold
+        type: Silver
         companyName: Gridlex
         companyWebsite:
         image: ../sponsors/gridlex.png
+        
   - name: Associate
     sponsors:
       - name: Zentropy

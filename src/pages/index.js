@@ -4,7 +4,7 @@ import {Header} from '../components/header';
 import {Footer} from '../components/footer';
 import {HeroBanner} from '../components/heroBanner';
 import {SEO} from "../components/seo";
-import Speakers from "./speakers";
+import Sponsors from "./sponsors";
 import Keynotes from "./keynotes";
 import Venue from "./venue";
 import TimeTable from "./timetable";
@@ -17,7 +17,7 @@ const IndexPage = () => {
       {/* <section id="speaker-sec"><Speakers /></section> */}
       <section id="keynotes"><Keynotes/></section>
       <section id="timetable"><TimeTable/></section>
-      {/* <section id="sponsors"><Sponsors/></section> */}
+      <section id="sponsors"><Sponsors/></section>
       <section id="venue"><Venue/></section>
       <Footer />
     </div>

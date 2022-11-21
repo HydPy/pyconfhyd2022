@@ -55,6 +55,7 @@
     padding-left: 0;
     min-height: 180px;
     display: flex;
+    margin: auto;
 }
 
 .sponsors__tier-title {
@@ -82,10 +83,12 @@
     align-items: center;
     gap: 2rem;
     margin: 2rem 0;
+    width: 120px;
 }
 
 .sponsors__logos img {
-    max-width: 90%;
+    max-width: 300px;
+    max-height: 200px;
 }
 
 @media (max-width: 768px){
@@ -95,3 +98,10 @@
         font-size: 30px !important;
     }
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }

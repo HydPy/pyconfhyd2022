@@ -12,10 +12,9 @@ const Sponsors = () => {
   const sponsors = sponsorsData.tiers.filter((t) => t.sponsors.length > 0);
   return (
     <div className="body-wrap">
-      <Header bg={"#000"} classHeader={"header-misc"} />
       <Container p={5}>
         <article>
-          <SectionHeading mt={30}>Our Sponsors</SectionHeading>
+          <SectionHeading mt={30} style={{display:'flex', justifyContent: 'center'}}>Our Sponsors</SectionHeading>
           {sponsors.length > 0 && <hr />}
 
           {sponsors.map((tier, index) => (
@@ -36,7 +35,7 @@ const SponsorTier = ({ tier }) => {
       <h4 className="sponsors__tier-title">
         <span>{tier.name}</span>
       </h4>
-      <div className="sponsors__logos">
+      <div className="sponsors__logos center">
         {tier.sponsors.map((sponsor) => (
           <a
             key={sponsor.url}
@@ -47,6 +46,7 @@ const SponsorTier = ({ tier }) => {
             <img src={sponsor.image} alt={sponsor.name} />
           </a>
         ))}
+        &nbsp;
       </div>
     </div>
   );
