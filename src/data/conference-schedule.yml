@@ -107,11 +107,11 @@
 
 - time: 4:30PM
   workList:
-    - title: TBA
+    - title: Signing Python Packages using sigstore
       time: 4:30PM - 5:00PM
-      speaker: TBA
+      speaker: Nabarun Pal
       track: Conference Hall
-      discription: TBA
+      discription: Securing the software supply chain has become very important to prevent malicious entities from tampering with release artefacts while they are being shipped. This talk gives a deep dive and a demo on securing the build and delivery pipeline of Python packages to end users.
 
 - time: 5:00PM 
   workList:
