@@ -1,4 +1,5 @@
 import * as React from "react";
+import "../assets/stylesheets/application.scss";
 import { Header } from "./header";
 import { Footer } from './footer';
 import bookImage from "../images/faq.webp";
