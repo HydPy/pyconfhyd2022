@@ -30,6 +30,11 @@ export const Header = ({ bg, classHeader, color }) => (
         </Link>
       </li>
       <li>
+        <Link to="/blog">
+          Blog
+        </Link>
+      </li>
+      <li>
         <Link to="/code-of-conduct">Code of Conduct</Link>
       </li>
       <li>

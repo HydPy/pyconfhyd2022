@@ -330,6 +330,15 @@ p {
     display: block
 }
 
+.block-display {
+    display: block !important;
+}
+
+.blog-link {
+    color: #0400ff;
+    text-decoration: underline;
+}
+
 .hr {
     width: 100%;
     height: 1px;
@@ -1250,4 +1259,8 @@ h2.special-bg,.section.flexible h2 {
     #myFooter .footer-container {
         display: flex;
     }
+}
+
+.blog-container {
+    padding: 20px 80px;
 }

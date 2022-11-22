@@ -9,6 +9,7 @@
     ```shell
     cd pyconfhyd2022-gatsby
     npm i
+
     ```
 
 2.  **Start developing.**
