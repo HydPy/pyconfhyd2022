@@ -1,4 +1,5 @@
 import * as React from "react";
+import "../assets/stylesheets/application.scss";
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { Header } from "../components/header";
 import { Footer } from '../components/footer';
