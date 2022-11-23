@@ -54,9 +54,9 @@
       discription: This workshop will cover how Python can be used for Data Analysis using packages like numpy and pandas. At the end of the session, attendees will be able to apply/perform techniques like data transformations, understanding the data, dealing with data exceptions like missing values, outliers, etc.. 
       track: Track-101
       time: 02:00PM - 5:00PM
-    - title:  TBA
-      speaker: TBA
-      discription: TBA
+    - title: Build your first MLOps pipeline in Python!
+      speaker: Jayesh Sharma
+      discription: MLOps is a fast-emerging field and with the advent of tech like Stable Diffusion, understanding how a model goes from a notebook to a deployed service is very rewarding. Learn about the various steps that comprise an ML pipeline and the top tools you can use to train and deploy your own service!
       track: Track-102 
       time: 02:00PM - 5:00PM
     - title: TBA
