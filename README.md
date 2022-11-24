@@ -2,6 +2,8 @@
   PyConf Hyderabad 2022
 </h1>
 
+[![PyConf Hyderabad 2022 site CI](https://github.com/HydPy/pyconfhyd2022/actions/workflows/gatsby.yml/badge.svg)](https://github.com/HydPy/pyconfhyd2022/actions/workflows/gatsby.yml)
+
 ## 🚀 Quick start
 
 1.  **Clone and start developing**
