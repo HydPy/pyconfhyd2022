@@ -29,7 +29,7 @@
     - title: Tea / Coffee Break
       time: 11:30AM - 11:45AM
       speaker: Food Partner
-      track: Cafetria
+      track: Cafeteria
       description: Enjoy the tea and network.
 
 
@@ -54,7 +54,7 @@
     - title: Lunch
       time: 12:45PM - 1:45PM
       speaker: Food Partner 
-      track: Cafetria
+      track: Cafeteria
       discription: Enjoy the lunch and network.
 
 - time: 1:45PM 
@@ -78,7 +78,7 @@
     - title: Drinks Break
       time: 2:45PM - 3:00PM
       speaker: participants
-      track: Cafetria
+      track: Cafeteria
       discription: Tea Break + Networking.
 
 - time: 3:00PM 
