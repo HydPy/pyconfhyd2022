@@ -85,23 +85,15 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 2rem;
-    margin: 2rem 0;
-    width: 120px;
+    gap: 10rem;
+    width: 100%;
+    justify-content: center;
 }
 
 .sponsors__logos img {
     max-width: 300px;
     max-height: 200px;
 }
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
 
 /* mobile styles */
 @media (max-width: 768px){
@@ -115,8 +107,13 @@
         padding: 12px;
     }
 
-    .center {
-        width: 90%;
+    .sponsors__logos{
+        gap: 0;
+    }
+
+    .sponsors__logos img{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
     }
 
 }
