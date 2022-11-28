@@ -24,6 +24,12 @@ tiers:
         companyWebsite:
         image: ../2022/sponsors/crelio.jpg
 
+      - name: SenecaGlobal
+        type: Gold
+        companyName: SenecaGlobal
+        companyWebsite:
+        image: ../2022/sponsors/seneca.png
+        
   - name: Silver
     sponsors:
       - name: Gridlex
