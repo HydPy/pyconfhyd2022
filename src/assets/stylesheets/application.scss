@@ -25,6 +25,7 @@ html,body {
     font-display: auto;
     font-family: MontSerrat,sans-serif;
     color: lighten($primary-color, $amount: 20);
+    scroll-behavior: smooth;
 }
 
 body {
