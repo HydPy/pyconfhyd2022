@@ -30,7 +30,6 @@
     padding: 13px 23px;
     border: 1px solid #222222;
     background: #fff;
-    color: #2222;
 }
 .conf_work_button_not_show:hover{
     border-color: #000;
@@ -119,7 +118,7 @@
 .track{
     font-style: normal;
     font-weight: 500;
-    font-size: 20px;
+    font-size: 14px;
     color: white;
     padding: 5px 10px;
     border-radius: 4px;
