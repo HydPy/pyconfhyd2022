@@ -1,0 +1,13 @@
+.scrollToTop{
+    position: relative;
+}
+
+.goToTopButton{
+    position: fixed;
+    width: 2.5rem;
+    height: 3rem;
+    bottom: 1.25rem;
+    right: 1.25rem;
+    z-index: 101;
+    cursor: pointer;
+}
