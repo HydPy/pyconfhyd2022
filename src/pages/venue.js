@@ -26,7 +26,7 @@ const Venue = ({data }) => {
                             {/* <p>{venue.type}</p> */}
                             <span>{venue.location}</span>
                             <div className='location-button'>
-                                <a className='dwd-link' href={venue.map_link}>View Locaion</a>
+                                <a className='dwd-link' href={venue.map_link}>View Location</a>
                             </div>
                         </div>
                     </div>
