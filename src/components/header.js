@@ -56,12 +56,12 @@ export const Header = ({ bg, classHeader, color }) => {
         <li>
           <Link to="/faq">FAQ</Link>
         </li>
-        <li>
+        {/* <li>
           <a href="#" onClick={toggleMenu}>
             More
           </a>
           <SubMenu hidden={!open} />
-        </li>
+        </li> */}
       </ul>
     </header>
   );
