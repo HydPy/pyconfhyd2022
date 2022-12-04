@@ -1,14 +1,10 @@
-- title: Docker Bangalore
-  website: bhansa.github.io
-  logo: ./community-partners/docker-bangalore.jpeg
+- title: WTM Mysuru
+  website:
+  logo: ./community-partners/wtm-mysuru.webp
 
 - title: Co Learning Lounge
   website:
   logo: ./community-partners/co-learning-lounge.webp
-
-- title: WTM Mysuru
-  website:
-  logo: ./community-partners/wtm-mysuru.webp
 
 - title: Python Pune
   website:
@@ -33,3 +29,20 @@
 - title: TSUG Mysuru
   website:
   logo: ./community-partners/tsug-mysuru.webp
+
+- title: Docker Bangalore
+  website: bhansa.github.io
+  logo: ./community-partners/docker-bangalore.jpeg
+
+- title: WTM Hyderabad
+  website:
+  logo: ./community-partners/wtm-hyderabad.jpeg
+
+- title: Collabnix
+  website:
+  logo: ./community-partners/collabnix.webp
+  # width: 180
+
+- title: Unlearning-Relearning
+  website:
+  logo: ./community-partners/unlearning-relearning.webp

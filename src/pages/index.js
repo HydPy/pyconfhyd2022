@@ -3,7 +3,7 @@ import "../assets/stylesheets/application.scss";
 import { Header } from "../components/header";
 import { Footer } from "../components/footer";
 import { HeroBanner } from "../components/heroBanner";
-import { SEO } from "../components/seo";
+import { SEO } from "../components/Seo";
 import Sponsors from "./sponsors";
 import Keynotes from "./keynotes";
 import Venue from "./venue";
