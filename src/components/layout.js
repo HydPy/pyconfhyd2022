@@ -19,10 +19,16 @@ const Layout = ({ pageTitle, image, children }) => {
 
   return (
     <>
-      <Header bg={"#000"} classHeader={"header-misc"} />
+      <Header classHeader="header-misc" />
       <div className="misc body-wrap">
         <section class="absolute w-screen -z-10 h-[80vh]">
-          <GatsbyImage image={imagePath} alt="hero background" className="block-display" height="100%" width="100%" />
+          <GatsbyImage
+            image={imagePath}
+            alt="hero background"
+            className="block-display"
+            height="100%"
+            width="100%"
+          />
           {/* <img src={bookImage} alt="hero background" class="h-full" height="100%" width="100%" /> */}
         </section>
         <section class="container mx-auto z-10 pt-40 lg:px-5">

@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/stylesheets/footer.css";
 import logo from "../images/Pyconf_2022_03.webp";
 
 export const Footer = () => (

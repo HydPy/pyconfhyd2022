@@ -1,9 +1,7 @@
 /** @jsx jsx */
 import React from "react";
 import SectionHeading from "../components/section-heading";
-import SponsorCard from "../components/sponsor-card";
-import { Header } from "../components/header";
-import { jsx, Container } from "theme-ui";
+import { jsx } from "theme-ui";
 import "../assets/stylesheets/application.scss";
 import "../assets/stylesheets/sponsors.css";
 import sponsorsData from "../data/sponsors.yml";
