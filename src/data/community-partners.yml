@@ -31,7 +31,7 @@
   logo: ./community-partners/tsug-mysuru.webp
 
 - title: Docker Bangalore
-  website: bhansa.github.io
+  website:
   logo: ./community-partners/docker-bangalore.jpeg
 
 - title: WTM Hyderabad
