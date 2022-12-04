@@ -9,12 +9,13 @@ import Keynotes from "./keynotes";
 import Venue from "./venue";
 import TimeTable from "./timetable";
 import ScrollToTop from './../components/ScrollToTop';
+import CommunityPartners from "./../components/CommunityPartners";
 
 const IndexPage = () => {
   return (
     <>
       <div className="body-wrap">
-        <Header classHeader={"absolute"} bg={"fff"} />
+        <Header classHeader="header-sticky" />
         <HeroBanner />
         {/* <section id="speaker-sec"><Speakers /></section> */}
         <section id="keynotes">
@@ -25,6 +26,9 @@ const IndexPage = () => {
         </section>
         <section id="sponsors">
           <Sponsors />
+        </section>
+        <section id="community-partners">
+          <CommunityPartners />
         </section>
         <section id="venue">
           <Venue />

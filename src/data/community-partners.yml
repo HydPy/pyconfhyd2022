@@ -1,0 +1,48 @@
+- title: WTM Mysuru
+  website:
+  logo: ./community-partners/wtm-mysuru.webp
+
+- title: Co Learning Lounge
+  website:
+  logo: ./community-partners/co-learning-lounge.webp
+
+- title: Python Pune
+  website:
+  logo: ./community-partners/python-pune.webp
+
+- title: GDG
+  website:
+  logo: ./community-partners/gdg-hyderabad.webp
+
+- title: GDG Cloud Hyderabad
+  website:
+  logo: ./community-partners/gdg-cloud-hyderabad.webp
+
+- title: GDG Cloud Mysuru
+  website:
+  logo: ./community-partners/gdg-cloud-mysuru.png
+
+- title: GDG Mysuru
+  website:
+  logo: ./community-partners/gdg-mysuru.png
+
+- title: TSUG Mysuru
+  website:
+  logo: ./community-partners/tsug-mysuru.webp
+
+- title: Docker Bangalore
+  website: bhansa.github.io
+  logo: ./community-partners/docker-bangalore.jpeg
+
+- title: WTM Hyderabad
+  website:
+  logo: ./community-partners/wtm-hyderabad.jpeg
+
+- title: Collabnix
+  website:
+  logo: ./community-partners/collabnix.webp
+  # width: 180
+
+- title: Unlearning-Relearning
+  website:
+  logo: ./community-partners/unlearning-relearning.webp
