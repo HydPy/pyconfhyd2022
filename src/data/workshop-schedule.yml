@@ -18,9 +18,9 @@
       discription: Decorators and Generators are very powerful and super handy constructs in Python when it comes to write re-usable code and controlled flow. Most of the Python developers know or would have heard of these constructs but only a few know how they are used.
       track: Track-101
       time: 10:00AM - 01:00PM
-    - title: TBA
-      speaker: TBA
-      discription: TBA. 
+    - title: Deep Dive into AWS Serverless Development using IAC & Python
+      speaker: Shivam Chaurasia
+      discription:  In this workshop Shivam will take us through the lifecycle of AWS serverless development and talk about the common pitfall and best practices. He will do an end-to-end demo of how to develop a modern serverless application using AWS serverless stack and IAC (terraform)
       track: Track-102 
       time: 10:00AM - 1:00PM
     - title: Deploying Diffusion Models at Scale
@@ -59,8 +59,8 @@
       discription: MLOps is a fast-emerging field and with the advent of tech like Stable Diffusion, understanding how a model goes from a notebook to a deployed service is very rewarding. Learn about the various steps that comprise an ML pipeline and the top tools you can use to train and deploy your own service!
       track: Track-102 
       time: 02:00PM - 5:00PM
-    - title: TBA
-      speaker:  TBA
-      discription: TBA
+    - title: Deep Dive into Pytest
+      speaker: Revant M, Naveen & Sarath
+      discription: Pytest is a mature full-featured Python testing tool that helps you write better programs, enables you to create marks, or custom labels, for any test you like. In this workshop -  Revant, Naveen, Sarath will explain you to code along from the basics to implement pytest in django code so that you could run the tests in your CI- CD pipelines
       track: Track-103
       time: 02:00PM - 5:00PM
