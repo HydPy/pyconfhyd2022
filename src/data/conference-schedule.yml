@@ -35,7 +35,7 @@
 
 - time: 11:45AM 
   workList:
-    - title: Building a Multi-tenant Software-as-a-Service solution with Django and Django-Tenants
+    - title: Building a Multi-tenant SAAS solution with Django and Django-Tenants
       time: 11:45AM - 12:15PM
       speaker: Jatin Goel
       track: Conference Hall
@@ -43,7 +43,7 @@
 
 - time: 12:15PM
   workList:    
-    - title: Sponsored Talk from EPAM followed by Innominds (Platinum Sponsors)
+    - title: Sponsored Talk from EPAM followed by Innominds
       time: 12:15PM - 12:45PM
       speaker: TBA
       track: Conference Hall
@@ -83,11 +83,11 @@
 
 - time: 3:00PM 
   workList:
-    - title: Panel Discussion
+    - title: Sponsored Talk from MongoDB, SenecaGlobal & CrelioHealth
       time: 3:00PM - 3:30PM
-      speaker: TBA
+      speaker: Megha Arora, TBA, TBA
       track: Conference Hall
-      discription: Panel Discussion, Topic - TBA.
+      discription: Sponsored Talk from MongoDB, SenecaGlobal & CrelioHealth
     
 - time: 3:30PM 
   workList:    
@@ -103,7 +103,7 @@
       time: 4:00PM - 4:30PM
       speaker: Ashok Tankala, Hemangi Karchalkar 
       track: Conference Hall
-      discription:
+      discription: Lightning Talks
 
 - time: 4:30PM
   workList:
