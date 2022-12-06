@@ -45,3 +45,11 @@ tiers:
         companyName: Zentropy
         companyWebsite:
         image: ../2022/sponsors/zentropy.png
+        
+  - name: In-Kind
+    sponsors:
+      - name: MongoDB
+        type: In-Kind
+        companyName: MongoDB
+        companyWebsite: https://www.mongodb.com
+        image: ../2022/sponsors/mongodb.png
