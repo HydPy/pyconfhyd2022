@@ -21,17 +21,17 @@ const ScheduleCard = ({ track, time, title, speaker_info, discription }) => {
         <div className="discription-div">
           <p>{discription}</p>
         </div>
-        <div className="info-button-div">
+        {/* <div className="info-button-div">
           <button className="bottom-button">
             Learn More&nbsp;
             <PlusCircle />
           </button>
-          {/* commenting watch now for now */}
-        {/* <button className="bottom-button">
+          //commenting watch now for now
+         <button className="bottom-button">
             <PlayCircle />
             &nbsp;Watch Now
-          </button> */}
-        </div>
+          </button>
+        </div> */}
       </div>
     </div>
   );
